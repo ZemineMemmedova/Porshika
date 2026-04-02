@@ -1,0 +1,3148 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Top - Pokryshka.ru Style</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<style>
+    /* Swiper Oxlarının Xüsusi Dizaynı (Şəkildəki kimi) */
+    .swiper-button-next, .swiper-button-prev {
+        background-color: rgba(243, 238, 238, 0.845); /* Boz yarı-şəffaf fon */
+        width: 40px !important;
+        height: 70px !important;
+        color: #555 !important; /* Oxun rəngi */
+        transition: all 0.3s;
+    }
+
+    .swiper-button-prev {
+        left: 0 !important;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .swiper-button-next {
+        right: 0 !important;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 18px !important;
+        font-weight: bold;
+    }
+
+    .swiper-button-next:hover, .swiper-button-prev:hover {
+        background-color: rgb(255, 252, 252);
+    }
+
+    /* Linklərin altındakı xətt və rəng effekti */
+    .footer-link {
+        text-decoration: underline;
+        text-decoration-color: #d1d5db;
+        text-underline-offset: 3px;
+        color: #374151;
+        transition: color 0.2s, text-decoration 0.2s;
+    }
+
+    .footer-link:hover {
+        text-decoration: none;
+        color: #dc2626; /* Qırmızı hover */
+    }
+
+        /* Slider nöqtələrini xətt formasına salan stil */
+        .swiper-pagination-bullet {
+            width: 28px !important;
+            height: 3px !important;
+            border-radius: 0 !important;
+            background: #e5e7eb !important;
+            opacity: 1 !important;
+            transition: all 0.3s ease;
+        }
+        .swiper-pagination-bullet-active {
+            background: #0089cf !important;
+        }
+</style>
+<body class="bg-[rgb(241,241,241)] m-0 p-0 h-full w-full">
+
+    <header class="container w-[1370px] item-center m-auto mb-3">
+        <div class=" py-2 text-[12px] text-[#333]">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            
+            <div class="flex-1 text-left">
+                <a href="#" class="group inline-block italic">
+                    <span class="text-[#555] font-bold  text-[14px] border-red-500 group-hover:border-transparent transition-all">
+                        Доставка комплекта шин по Москве — <span class="text-red-600 text-[14px]">Бесплатно!</span>
+                    </span>
+                </a>
+            </div>
+
+            <div class=" group flex-1 flex justify-center items-center">
+                <div class="flex items-center cursor-pointer group">
+                    <i class="fas fa-map-marker-alt text-gray-900 mr-1 text-[14px]"></i>
+                    <span class="text-[#333]">Ваш регион: </span>
+                    <span class="ml-1 border-b  border-gray-600 group-hover:border-transparent transition-all duration-300">
+                        Не определен
+                    </span>
+                    <i class="fas fa-chevron-down ml-1 text-[10px] text-gray-400"></i>
+                </div>
+            </div>
+
+            <div class="flex-1 flex justify-end items-center space-x-5">
+                <a href="#" class="flex items-center hover:text-red-600 text-[15px] px-2 py-0.5 rounded-sm font-bold">
+                    <i class="fas fa-info-circle mr-1 text-gray-700"></i> Помощь
+                </a>
+                
+                <a href="contacts.html" class="flex items-center hover:text-red-600 font-bold text-[15px]">
+                    <i class="fas fa-phone-alt mr-1 text-gray-700 rotate-90 "></i> Контакты
+                </a>
+                
+                <a href="#" class="flex items-center hover:text-red-600 font-bold text-[15px]">
+                    <i class="fas fa-user mr-1 text-gray-700 "></i> Войти
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    </header>
+
+
+    <section class="max-w-[1370px] bg-white justify-center item-center m-auto" >
+    <div class="py-8 px-6 flex items-center justify-between border-t-4  border-gray-600  ">
+        
+        <div class="flex flex-col">
+            <img src="img/pokrishka-logo.svg" alt="Pokryshka.ru" class="h-10 w-auto">
+            <span class="text-[11px] text-gray-400 mt-1">интернет-магазин шин и дисков</span>
+        </div>
+
+        <div class="flex items-center space-x-10">
+            <div class="text-center">
+                <div class="text-[20px] font-bold text-black leading-none">
+                    +7 495 <span class="text-red-600">995-80-40</span>
+                </div>
+                <div class="text-[11px] text-gray-500 mt-1 font-medium italic">с 9:00 - 21:00 (без выходных)</div>
+            </div>
+
+            <div class="text-center">
+                <div class="text-[20px] font-bold text-black leading-none">
+                    8 800 <span class="text-red-600">500-80-66</span>
+                </div>
+                <div class="text-[11px] text-gray-500 mt-1 font-medium italic">по России (бесплатно)</div>
+            </div>
+        </div>
+
+        <div class="flex items-center space-x-8">
+            <div class="flex items-center border-l border-gray-200 pl-8 space-x-3">
+                <div class="text-right">
+                    <a href="#" class="text-[11px] font-bold border-b border-black uppercase leading-[1.1] hover:border-transparent transition-all">
+                        Прошу<br>позвонить
+                    </a>
+                </div>
+                <img src="img/smartphone-call.svg" alt="phone" class="w-8 h-8">
+            </div>
+
+            <div class="flex items-center border-l border-gray-200 pl-8">
+                <div class="relative mr-4">
+                    <i class="fas fa-shopping-cart text-[35px] text-gray-700"></i>
+                    <div class="absolute -bottom-1 left-1.5 flex space-x-2.5">
+                        <div class="w-2 h-2 bg-gray-700 rounded-full border border-white"></div>
+                        <div class="w-2 h-2 bg-gray-700 rounded-full border border-white"></div>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-[19px] font-extrabold text-[#333] leading-none">Корзина</span>
+                    <span class="text-[11px] text-gray-500 mt-1 leading-tight">
+                        У вас <b class="text-black">0 товаров</b><br>
+                        на сумму <b class="text-black">0 руб.</b>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--dropdown-->
+
+    <div class="border-t border-b border-gray-200 py-1 px-6 flex items-center justify-between bg-white">
+    
+    <nav class="flex items-center text-[14px] font-bold uppercase">
+        
+        
+
+<div class="group relative">
+    <a href="#" class="flex items-center px-4 py-3 hover:text-red-600 transition-colors font-bold uppercase text-[14px]">
+        <span class="text-red-600">Ш</span><span>ины</span>
+        <i class="fas fa-chevron-down ml-2 text-[10px] text-gray-400"></i>
+    </a>
+
+    <div class="absolute left-[-27px] top-full z-50 
+                w-[900px] border border-gray-300 bg-white p-6 shadow-2xl 
+                invisible opacity-0 translate-y-2 
+                transition-all duration-500 ease-out 
+                group-hover:visible group-hover:opacity-100 group-hover:translate-y-0">
+        
+        <div class="grid grid-cols-2 gap-4 mb-4">
+            <div class="group/img relative h-48 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                <img src="img/winter.jpg" class="h-full w-full object-cover">
+                <div class="absolute inset-0 bg-black/20 group-hover/img:bg-black/50 transition-all duration-300"></div>
+                <div class="absolute bottom-3 left-3 text-white">
+                    <p class="text-[10px] font-bold opacity-90 leading-none uppercase">Шины</p>
+                    <p class="text-2xl font-black italic leading-tight uppercase">Зимние</p>
+                    <div class="flex space-x-2 mt-1 text-[10px] font-bold">
+                        <span class="border-b border-white/60 hover:border-white">Шипованные</span>
+                        <span class="border-b border-white/60 hover:border-white">Нешипованные</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group/img relative h-48 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                <img src="img/summer.jpg" class="h-full w-full object-cover">
+                <div class="absolute inset-0 bg-black/20 group-hover/img:bg-black/50 transition-all duration-300"></div>
+                <div class="absolute bottom-3 left-3 text-white">
+                    <p class="text-[10px] font-bold opacity-90 leading-none uppercase">Шины</p>
+                    <p class="text-2xl font-black italic leading-tight uppercase">Летние</p>
+                    <div class="mt-1 text-[10px] font-bold border-b border-white/60 hover:border-white inline-block">Всесезонные</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-4 gap-4 mb-6">
+            <div class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                <img src="img/cars.jpg" class="h-full w-full object-cover">
+                <div class="absolute inset-0 bg-black/30 group-hover/img:bg-black/55 transition-all"></div>
+                <div class="absolute bottom-2 left-2 text-white">
+                    <p class="text-[8px] font-bold leading-none uppercase">Шины для</p>
+                    <p class="text-[11px] font-black leading-tight uppercase">Легковых</p>
+                </div>
+            </div>
+            <div class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                <img src="img/suvs.jpg" class="h-full w-full object-cover">
+                <div class="absolute inset-0 bg-black/30 group-hover/img:bg-black/55 transition-all"></div>
+                <div class="absolute bottom-2 left-2 text-white">
+                    <p class="text-[8px] font-bold leading-none uppercase">Шины для</p>
+                    <p class="text-[11px] font-black leading-tight uppercase">Легковых</p>
+                </div>
+            </div>
+            <div class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                <img src="img/minibus.jpg" class="h-full w-full object-cover">
+                <div class="absolute inset-0 bg-black/30 group-hover/img:bg-black/55 transition-all"></div>
+                <div class="absolute bottom-2 left-2 text-white">
+                    <p class="text-[8px] font-bold leading-none uppercase">Шины для</p>
+                    <p class="text-[11px] font-black leading-tight uppercase">Легковых</p>
+                </div>
+            </div>
+            <div class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                <img src="img/runflat.jpg" class="h-full w-full object-cover">
+                <div class="absolute inset-0 bg-black/30 group-hover/img:bg-black/55 transition-all"></div>
+                <div class="absolute bottom-2 left-2 text-white">
+                    <p class="text-[8px] font-bold leading-none uppercase">Шины для</p>
+                    <p class="text-[11px] font-black leading-tight uppercase">Легковых</p>
+                </div>
+            </div>
+            </div>
+
+        <div class="grid grid-cols-3 gap-0 border-t border-b border-gray-100 py-3 mb-4 items-center">
+            <div class="flex items-center space-x-3 px-2 border-r border-gray-100 hover:text-red-600 cursor-pointer group/icon">
+                <img src="img/teker.png" class="w-16 h-16 object-contain">
+                <span class="text-[12px] font-bold leading-tight">Поиск шин по<br>типоразмерu</span>
+            </div>
+            <div class="flex items-center space-x-3 px-2 border-r border-gray-100 hover:text-red-600 cursor-pointer group/icon">
+                <img src="img/bmw.png" class="w-16 h-16 object-contain">
+                <span class="text-[12px] font-bold leading-tight">Подбор шин<br>по автомобилю</span>
+            </div>
+            <div class="flex items-center space-x-3 px-2 hover:text-red-600 cursor-pointer group/icon">
+                <img src="img/brand.png" class="w-16 h-16 object-contain">
+                <span class="text-[12px] font-bold leading-tight">Поиск шин по<br>производителю</span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-12">
+            <div>
+                <div class="flex justify-between items-center mb-4">
+                    <h4 class="text-sm font-bold uppercase">Популярные <span class="text-red-600">производители шин</span></h4>
+                    
+                    <div class="flex space-x-2 relative z-10">
+                        <div class="swiper-button-prev-custom cursor-pointer w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-all text-gray-600">
+                            <i class="fas fa-chevron-left text-[10px]"></i>
+                        </div>
+                        <div class="swiper-button-next-custom cursor-pointer w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-all text-gray-600">
+                            <i class="fas fa-chevron-right text-[10px]"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper brandSwiper w-full h-24 overflow-hidden">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/logo-pirelli.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/continental.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/hankook.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/logo-yokohama.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/toyo.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/good-year.jpg" class="h-6 object-contain"></div>
+
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/1a.gif" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/1b.gif" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/1c.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/1d.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/1e.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/1f.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/1aa.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/1bb.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/1cc.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/1dd.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/1ee.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/1ff.gif" class="h-6 object-contain"></div>
+                    </div>
+                </div>
+
+                <button class="mt-6 bg-[#5a5d61] hover:bg-black text-white text-[10px] font-bold px-4 py-1 uppercase rounded-sm flex items-center transition-all">
+                    <i class="fas fa-bars mr-2"></i> Все производители
+                </button>
+            </div>
+
+            <div>
+                <h4 class="text-sm font-bold uppercase mb-4">Популярные <span class="text-red-600">типоразмеры</span></h4>
+                <div class="grid grid-cols-4 gap-y-2 gap-x-2 text-[11.5px] font-bold text-blue-600">
+                    <a href="#" class="hover:underline">175/70 R13</a>
+                    <a href="#" class="hover:underline">195/65 R15</a>
+                    <a href="#" class="hover:underline">215/65 R16</a>
+                    <a href="#" class="hover:underline">215/55 R17</a>
+                    <a href="#" class="hover:underline">175/65 R14</a>
+                    <a href="#" class="hover:underline">205/55 R16</a>
+                    <a href="#" class="hover:underline">215/70 R16</a>
+                    <a href="#" class="hover:underline">225/45 R17</a>
+                    <a href="#" class="hover:underline">175/65 R14</a>
+                    <a href="#" class="hover:underline">205/55 R16</a>
+                    <a href="#" class="hover:underline">215/70 R16</a>
+                    <a href="#" class="hover:underline">225/45 R17</a>
+                </div>
+                <button class="mt-6 bg-[#5a5d61] hover:bg-black text-white text-[10px] font-bold px-4 py-1 uppercase rounded-sm flex items-center transition-all">
+                    <i class="fas fa-bars mr-2"></i> Все размеры
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="group relative">
+    <a href="#" class="flex items-center px-4 py-3 font-bold uppercase text-[14px] hover:text-red-600 transition-colors">
+        <span class="text-red-600">Д</span><span>иски</span>
+        <i class="fas fa-chevron-down ml-2 text-[10px] text-gray-400"></i>
+    </a>
+
+    <div class="absolute left-[-124px] top-full z-50 
+                w-[900px] border border-gray-300 bg-white p-6 shadow-2xl 
+                invisible opacity-0 translate-y-2 
+                transition-all duration-500 ease-out 
+                group-hover:visible group-hover:opacity-100 group-hover:translate-y-0">
+        
+        <div class="grid grid-cols-2 gap-4 mb-6">
+            <div class="group/img relative h-44 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                <img src="img/wheels.jpg" class="h-full w-full object-cover">
+                <div class="absolute inset-0 bg-black/20 group-hover/img:bg-black/40 transition-all duration-300"></div>
+                <div class="absolute bottom-3 left-3 text-white">
+                    <p class="text-[10px] font-bold opacity-90 leading-none uppercase">Диски</p>
+                    <p class="text-2xl font-black italic leading-tight uppercase">Литые</p>
+                </div>
+            </div>
+
+            <div class="group/img relative h-44 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                <img src="img/wheels3.jpg" class="h-full w-full object-cover">
+                <div class="absolute inset-0 bg-black/20 group-hover/img:bg-black/40 transition-all duration-300"></div>
+                <div class="absolute bottom-3 left-3 text-white">
+                    <p class="text-[10px] font-bold opacity-90 leading-none uppercase">Диски</p>
+                    <p class="text-2xl font-black italic leading-tight uppercase">Штампованные</p>
+                </div>
+            </div>
+            </div>
+
+        <div class="grid grid-cols-3 gap-0 border-t border-b border-gray-100 py-4 mb-6">
+            <div class="flex items-center space-x-3 px-4 border-r border-gray-100 hover:text-red-600 cursor-pointer group/item">
+                <img src="img/disks.png" class="w-20 h-20 object-contain">
+                <span class="text-[12px] font-bold leading-tight">Поиск дисков по<br>размеру</span>
+            </div>
+            <div class="flex items-center space-x-3 px-4 border-r border-gray-100 hover:text-red-600 cursor-pointer group/item">
+                <img src="img/bmw.png" class="w-20 h-20 object-contain">
+                <span class="text-[12px] font-bold leading-tight">Подбор дисков<br>по автомобилю</span>
+            </div>
+            <div class="flex items-center space-x-3 px-4 hover:text-red-600 cursor-pointer group/item">
+                <img src="img/brand.png" class="w-20 h-20 object-contain">
+                <span class="text-[12px] font-bold leading-tight">Выбор дисков по<br>производителю</span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-10">
+            <div>
+                <div class="flex justify-between items-center mb-4">
+                    <h4 class="text-sm font-bold uppercase">Популярные <span class="text-red-600">производители дисков</span></h4>
+                    
+                    <div class="flex space-x-2 relative z-10">
+                        <div class="disk-prev cursor-pointer w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-all text-gray-600">
+                            <i class="fas fa-chevron-left text-[10px]"></i>
+                        </div>
+                        <div class="disk-next cursor-pointer w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-all text-gray-600">
+                            <i class="fas fa-chevron-right text-[10px]"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper diskSwiper w-full h-32 overflow-hidden">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/logo_kik.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/logo_ckad.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/alutec-logo.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/aezlogo.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/dezent-logo.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/kfz-stahlrad-logo.jpg" class="h-6 object-contain"></div>
+                        
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/accuride-logo.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/alcasta_logo.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/carwel.jpg" class="h-6 object-contain"></div>
+                        <div class="swiper-slide flex items-center justify-start"><img src="img/inforged-logo.jpg" class="h-6 object-contain"></div>
+                        </div>
+                </div>
+
+                <button class="mt-6 bg-[#5a5d61] hover:bg-black text-white text-[10px] font-bold px-4 py-1 uppercase rounded-sm flex items-center transition-all">
+                    <i class="fas fa-bars mr-2"></i> Все производители
+                </button>
+            </div>
+
+            <div>
+                <h4 class="text-sm font-bold uppercase mb-4">Популярные <span class="text-red-600">типоразмеры</span></h4>
+                <div class="grid grid-cols-4 gap-y-2 text-[11px] font-bold text-blue-600">
+                    <a href="#" class="hover:underline">R14 4x100</a>
+                    <a href="#" class="hover:underline">R15 5x114.3</a>
+                    <a href="#" class="hover:underline">R16 5x114.3</a>
+                    <a href="#" class="hover:underline">R18 5x112</a>
+                    <a href="#" class="hover:underline">R14 4x100</a>
+                    <a href="#" class="hover:underline">R15 5x114.3</a>
+                    <a href="#" class="hover:underline">R16 5x114.3</a>
+                    <a href="#" class="hover:underline">R18 5x112</a>
+                    <a href="#" class="hover:underline">R14 4x100</a>
+                    <a href="#" class="hover:underline">R15 5x114.3</a>
+                    <a href="#" class="hover:underline">R16 5x114.3</a>
+                    <a href="#" class="hover:underline">R18 5x112</a>
+                    </div>
+                <button class="mt-6 bg-[#5a5d61] hover:bg-black text-white text-[10px] font-bold px-4 py-1 uppercase rounded-sm flex items-center transition-all">
+                    <i class="fas fa-bars mr-2"></i> Все размеры
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        <div class="group relative">
+    <a href="#" class="flex items-center px-4 py-3 font-bold uppercase text-[14px] hover:text-red-600 transition-colors">
+        <span class="text-red-600">А</span><span>ксессуары</span>
+        <i class="fas fa-chevron-down ml-2 text-[10px] text-gray-400"></i>
+    </a>
+
+    <div class="absolute left-[-226px] top-full z-50 
+                w-[700px] border border-gray-300 bg-white p-6 shadow-2xl 
+                invisible opacity-0 translate-y-2 
+                transition-all duration-500 ease-out 
+                group-hover:visible group-hover:opacity-100 group-hover:translate-y-0">
+        
+        <div class="max-w-full mx-auto">
+            
+            <div class="grid grid-cols-3 gap-4 mb-4">
+                <div class="group/img relative h-40 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                    <img src="img/1.jpg" class="h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-black/20 group-hover/img:bg-black/45 transition-all duration-300"></div>
+                    <div class="absolute bottom-3 left-3 text-white">
+                        <p class="text-[11px] font-black leading-tight uppercase">Секретки<br>на колеса</p>
+                    </div>
+                </div>
+
+                <div class="group/img relative h-40 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                    <img src="img/2.jpg" class="h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-black/20 group-hover/img:bg-black/45 transition-all duration-300"></div>
+                    <div class="absolute bottom-3 left-3 text-white">
+                        <p class="text-[11px] font-black leading-tight uppercase">Датчики<br>давления</p>
+                    </div>
+                </div>
+
+                <div class="group/img relative h-40 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                    <img src="img/3.jpg" class="h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-black/20 group-hover/img:bg-black/45 transition-all duration-300"></div>
+                    <div class="absolute bottom-3 left-3 text-white">
+                        <p class="text-[11px] font-black leading-tight uppercase">Болты и гайки<br>для колес</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-4 gap-4">
+                <div class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                    <img src="img/4.jpg" class="h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-black/30 group-hover/img:bg-black/50 transition-all"></div>
+                    <div class="absolute bottom-2 left-2 text-white">
+                        <p class="text-[10px] font-black leading-tight uppercase">Цепи<br>противоскольжения</p>
+                    </div>
+                </div>
+
+                <div class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                    <img src="img/5.jpg" class="h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-black/30 group-hover/img:bg-black/50 transition-all"></div>
+                    <div class="absolute bottom-2 left-2 text-white">
+                        <p class="text-[10px] font-black leading-tight uppercase">Автомобильные<br>компрессоры</p>
+                    </div>
+                </div>
+
+                <div class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                    <img src="img/6.jpg" class="h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-black/30 group-hover/img:bg-black/50 transition-all"></div>
+                    <div class="absolute bottom-2 left-2 text-white">
+                        <p class="text-[10px] font-black leading-tight uppercase">Наборы<br>для ремонта шин</p>
+                    </div>
+                </div>
+
+                <div class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                    <img src="img/7.jpg" class="h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-black/30 group-hover/img:bg-black/50 transition-all"></div>
+                    <div class="absolute bottom-2 left-2 text-white">
+                        <p class="text-[10px] font-black leading-tight uppercase">Наборы<br>инструментов</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+        <div class="h-6 w-[1px] bg-gray-200"></div>
+
+        <a href="#" class="flex items-center px-4 py-2 hover:text-red-600 text-black">
+            <span class="text-red-600">С</span><span>екретки</span>
+        </a>
+
+        <div class="h-6 w-[1px] bg-gray-200"></div>
+
+        <a href="#" class="flex items-center px-4 py-2 hover:text-red-600 text-black">
+            <span class="text-red-600">А</span><span>кции и распродажа</span>
+        </a>
+
+        <div class="h-6 w-[1px] bg-gray-200"></div>
+
+        <a href="#" class="flex items-center px-4 py-2 hover:text-red-600 text-black">
+            <span class="text-red-600">Ш</span><span>инный калькулятор</span>
+        </a>
+    </nav>
+
+    <div class="flex items-center border border-gray-300 rounded-sm overflow-hidden h-7 ">
+        <input type="text" placeholder="Поиск по сайту" class="px-2  text-[13px] w-56 focus:outline-none italic text-gray-400">
+        <button class="bg-[#5a5d61] hover:bg-gray-700 text-white px-4 h-full flex items-center justify-center transition-colors">
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+
+</div>
+
+
+
+
+
+
+<!--section4-->
+<div class="max-w-[1300px] mx-auto py-6 flex gap-6 font-sans bg-white text-black">
+    
+    <div class="w-1/4 border border-gray-400 border-t-8 bg-white p-2">
+        <div class="mb-6 relative left-5">
+            <div class="flex items-center space-x-2 mb-3">
+                <img src="img/disk-logo1.svg" class="w-8 h-8">
+                <h3 class="text-[15px] font-bold uppercase italic">Каталог <span class="text-red-600">шин</span></h3>
+            </div>
+            <ul class="text-[12px] space-y-1 font-bold">
+                <li><a href="#" class="hover:text-red-500 border-b border-black hover:border-transparent transition-all">Подбор шин по размеру</a></li>
+                <li><a href="#" class="hover:text-red-500 border-b border-black hover:border-transparent transition-all">Подбор шин по автомобилю</a></li>
+                <li><a href="#" class="hover:text-red-500 border-b border-black hover:border-transparent transition-all">Выбор шин по производителю</a></li>
+            </ul>
+        </div>
+
+        <div class="mb-8 relative left-5">
+            <div class="flex items-center space-x-2 mb-3">
+                <img src="img/disk-logo.svg" class="w-8 h-8">
+                <h3 class="text-[15px] font-bold uppercase italic">Каталог <span class="text-red-600">дисков</span></h3>
+            </div>
+            <ul class="text-[12px] space-y-1 font-bold">
+                <li><a href="#" class="hover:text-red-500 border-b border-black hover:border-transparent transition-all">Подбор дисков по машине</a></li>
+                <li><a href="#" class="hover:text-red-500 border-b border-black hover:border-transparent transition-all">Подбор дисков по параметрам</a></li>
+                <li><a href="#" class="hover:text-red-500 border-b border-black hover:border-transparent transition-all">Выбор дисков по производителю</a></li>
+            </ul>
+        </div>
+
+        <div class="relative left-5 border-t pt-2 space-y-1 w-[260px]">
+            <a href="#" class="block text-[11px] font-bold uppercase hover:text-red-600">> ЧТО ТАКОЕ ТИПОРАЗМЕР?</a>
+            <p class="text-[10px] text-gray-600 leading-none pb-1">Как расшифровывается маркировка шин</p>
+            <a href="#" class="block text-[11px] font-bold uppercase hover:text-red-600">> КАК УЗНАТЬ ПАРАМЕТРЫ ДИСКА?</a>
+            <p class="text-[10px] text-gray-600 leading-none pb-1">Четыре способа узнать параметры диска</p>
+            <a href="#" class="block text-[11px] font-bold uppercase hover:text-red-600">> КАКИЕ ВЫБРАТЬ ШИНЫ?</a>
+            <p class="text-[10px] text-gray-600 leading-none pb-1">9 основных задаваемых вопросов</p>
+            <a href="#" class="block text-[11px] font-bold uppercase hover:text-red-600">> ПОМОЩЬ СПЕЦИАЛИСТА</a>
+            <p class="text-[10px] text-gray-600 leading-none pb-1">Задайте вопрос нашему специалисту</p>
+        </div>
+    </div>
+
+    <div class="w-3/4">
+        <div class="bg-[#f1f1f1] border border-gray-200 h-16 flex items-center justify-between mb-6 relative overflow-hidden ">
+            <div class="flex items-center">
+                <img src="img/sec33.png" class="h-15 object-contain">
+            </div>
+            <div class="text-center">
+                <h2 class="text-2xl font-black text-red-600 uppercase leading-none italic">Бесплатная доставка!</h2>
+                <p class="text-[10px] font-bold uppercase text-gray-500">Комплекта шин по Москве</p>
+            </div>
+            <img src="img/sec3.png" class="h-full object-contain">
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+            
+            <div class="bg-[#55595c] border border-gray-400 p-4 relative overflow-hidden h-[370px] flex flex-col justify-between text-white">
+                <div class="relative z-20">
+                    <div class="flex justify-between items-center mb-4 border-b border-gray-500 pb-2">
+                        <h4 class="text-white font-bold text-lg italic uppercase">Подбор <span class="text-red-500">шин</span></h4>
+                        <div class="flex text-[9px] font-bold uppercase cursor-pointer border border-gray-400">
+                            <span id="shin-tab-params" onclick="toggleTab('shin', 'params')" class="bg-[#333638] text-white px-2 py-1 transition-all">По параметрам</span>
+                            <span id="shin-tab-auto" onclick="toggleTab('shin', 'auto')" class="bg-white text-gray-800 px-2 py-1 transition-all">По автомобилю</span>
+                        </div>
+                    </div>
+                    
+                    <div id="shin-params-content" class="block">
+                        <div class="grid grid-cols-2 gap-4 mb-3">
+                            <div class="space-y-1">
+                                <label class="text-[10px] font-bold uppercase">Сезон</label>
+                                <select class="w-full text-black p-1 text-sm outline-none"><option>Летние</option><option>Зимние</option></select>
+                            </div>
+                            <div class="space-y-1">
+                                <label class="text-[10px] font-bold uppercase">Шипы</label>
+                                <select class="w-full text-black p-1 text-sm outline-none bg-gray-200" disabled><option>Все</option></select>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-3 gap-2 items-end">
+                            <div><label class="text-[10px] font-bold uppercase block mb-1">Ширина</label><select class="w-full text-black p-1 text-base font-bold"><option>195</option></select></div>
+                            <div class="flex items-center gap-1">
+                                <span class="text-xl font-bold mb-1">/</span>
+                                <div class="w-full"><label class="text-[10px] font-bold uppercase block mb-1">Профиль</label><select class="w-full text-black p-1 text-base font-bold"><option>65</option></select></div>
+                            </div>
+                            <div class="flex items-center gap-1">
+                                <span class="text-xl font-bold mb-1">R</span>
+                                <div class="w-full"><label class="text-[10px] font-bold uppercase block mb-1">Диаметр</label><select class="w-full text-black p-1 text-base font-bold"><option>15</option></select></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="shin-auto-content" class="hidden space-y-3 pt-2">
+                        <div class="relative w-full" id="dropdown-shin-brand">
+                            <div onclick="toggleUniversalDropdown('dropdown-shin-brand')" class="w-full p-2 bg-white border border-gray-300 flex items-center justify-between cursor-pointer">
+                                <div class="flex items-center gap-2 selected-area">
+                                    <span class="text-xs text-gray-500 uppercase font-bold">Марка</span>
+                                </div>
+                                <span class="text-[10px] text-gray-600"><i class="fa-solid fa-chevron-down"></i></span>
+                            </div>
+                            <div class="menu absolute z-50 left-0 w-[200px] mt-1 bg-white border border-gray-300 shadow-lg hidden">
+                                <div onclick="selectUniversalOption('dropdown-shin-brand', 'BMW', 'img/bmw.jpg')" class="flex items-center gap-2 p-2 hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                                    <img src="img/bmw.jpg" class="w-5 h-5 object-contain">
+                                    <span class="text-xs text-black uppercase font-bold">BMW</span>
+                                </div>
+                                 <div onclick="selectUniversalOption('dropdown-shin-brand', 'byd', 'img/byd.jpg')" class="flex items-center gap-2 p-2 hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                                    <img src="img/byd.jpg" class="w-5 h-5 object-contain">
+                                    <span class="text-xs text-black uppercase font-bold">Byd</span>
+                                </div>
+                                 <div onclick="selectUniversalOption('dropdown-shin-brand', 'rover', 'img/rover.jpg')" class="flex items-center gap-2 p-2 hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                                    <img src="img/rover.jpg" class="w-5 h-5 object-contain">
+                                    <span class="text-xs text-black uppercase font-bold">Rover</span>
+                                </div>
+                                 <div onclick="selectUniversalOption('dropdown-shin-brand', 'chevrolet', 'img/chevrolet.jpg')" class="flex items-center gap-2 p-2 hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                                    <img src="img/chevrolet.jpg" class="w-5 h-5 object-contain">
+                                    <span class="text-xs text-black uppercase font-bold">Chevrolet</span>
+                                </div>
+                                 <div onclick="selectUniversalOption('dropdown-shin-brand', 'hyundi', 'img/hyundai.jpg')" class="flex items-center gap-2 p-2 hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                                    <img src="img/hyundai.jpg" class="w-5 h-5 object-contain">
+                                    <span class="text-xs text-black uppercase font-bold">Hyundai</span>
+                                </div>
+                                <div onclick="selectUniversalOption('dropdown-shin-brand', 'Bentley', 'img/bentley.jpg')" class="flex items-center gap-2 p-2 hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                                    <img src="img/bentley.jpg" class="w-5 h-5 object-contain">
+                                    <span class="text-xs text-black uppercase font-bold">Bentley</span>
+                                </div>
+                            </div>
+                        </div>
+                        <select class="w-full p-2 text-xs text-black" disabled><option>Выберите модель</option></select>
+                        <select class="w-full p-2 text-xs text-black" disabled><option>Модификация</option></select>
+                    </div>
+                </div>
+
+                <img src="img/disk-bg2.jpg" class="absolute -bottom-24 left-1/2 -translate-x-1/2 w-[190%] z-10 opacity-40 pointer-events-none max-w-none">
+                <div class="flex justify-between items-end relative z-20">
+                    <button id="shin-footer-btn" class="text-[10px] font-bold uppercase text-gray-300 hover:text-white border-b border-dotted">Больше параметров +</button>
+                    <button class="bg-red-600 text-white px-8 py-2 font-black uppercase text-sm italic hover:bg-red-700 shadow-md">Подобрать</button>
+                </div>
+            </div>
+
+            <div class="bg-[#55595c] border border-gray-400 p-4 relative overflow-hidden h-[370px] flex flex-col justify-between text-white">
+                <div class="relative z-20">
+                    <div class="flex justify-between items-center mb-4 border-b border-gray-500 pb-2">
+                        <h4 class="text-white font-bold text-lg italic uppercase">Подбор <span class="text-red-500">дисков</span></h4>
+                        <div class="flex text-[9px] font-bold uppercase cursor-pointer border border-gray-400">
+                            <span id="disk-tab-params" onclick="toggleTab('disk', 'params')" class="bg-[#333638] text-white px-2 py-1 transition-all">По параметрам</span>
+                            <span id="disk-tab-auto" onclick="toggleTab('disk', 'auto')" class="bg-white text-gray-800 px-2 py-1 transition-all">По автомобилю</span>
+                        </div>
+                    </div>
+
+                    <div id="disk-params-content" class="block">
+                        <div class="grid grid-cols-2 gap-4 mb-3">
+                            <div class="space-y-1">
+                                <label class="text-[10px] font-bold uppercase">Диаметр</label>
+                                <select class="w-full text-black p-1 text-base font-bold outline-none"><option>16</option></select>
+                            </div>
+                            <div class="space-y-1">
+                                <label class="text-[10px] font-bold uppercase">Тип</label>
+                                <select class="w-full text-black p-1 text-sm outline-none"><option>Литые</option><option>Штампованные</option></select>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-3 gap-2 items-end">
+                            <div><label class="text-[10px] font-bold uppercase block mb-1">Крепеж</label><select class="w-full text-black p-1 text-base font-bold"><option>5</option></select></div>
+                            <div class="flex items-center gap-1">
+                                <span class="text-xl font-bold mb-1">x</span>
+                                <div class="w-full"><label class="text-[10px] font-bold uppercase block mb-1">PCD</label><select class="w-full text-black p-1 text-base font-bold"><option>112</option></select></div>
+                            </div>
+                            <div><label class="text-[10px] font-bold uppercase block mb-1">Вылет</label><select class="w-full text-black p-1 text-sm"><option>все</option></select></div>
+                        </div>
+                    </div>
+
+                    <div id="disk-auto-content" class="hidden space-y-3 pt-2">
+                        <div class="relative w-full" id="dropdown-disk-brand">
+                            <div onclick="toggleUniversalDropdown('dropdown-disk-brand')" class="w-full p-2 bg-white border border-gray-300 flex items-center justify-between cursor-pointer">
+                                <div class="flex items-center gap-2 selected-area">
+                                    <span class="text-xs text-gray-500 uppercase font-bold">Марка</span>
+                                </div>
+                                <span class="text-[10px] text-gray-600"><i class="fa-solid fa-chevron-down"></i></span>
+                            </div>
+                            <div class="menu absolute z-50 left-0 w-[200px] mt-1 bg-white border border-gray-300 shadow-lg hidden">
+                                <div onclick="selectUniversalOption('dropdown-disk-brand', 'BMW', 'img/bmw.jpg')" class="flex items-center gap-2 p-2 hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                                    <img src="img/bmw.jpg" class="w-5 h-5 object-contain">
+                                    <span class="text-xs text-black uppercase font-bold">BMW</span>
+                                </div>
+                                <div onclick="selectUniversalOption('dropdown-disk-brand', 'bentley', 'img/bentley.jpg')" class="flex items-center gap-2 p-2 hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                                    <img src="img/bentley.jpg" class="w-5 h-5 object-contain">
+                                    <span class="text-xs text-black uppercase font-bold">Bentley</span>
+                                </div>
+                                <div onclick="selectUniversalOption('dropdown-disk-brand', 'byd', 'img/byd.jpg')" class="flex items-center gap-2 p-2 hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                                    <img src="img/byd.jpg" class="w-5 h-5 object-contain">
+                                    <span class="text-xs text-black uppercase font-bold">Byd</span>
+                                </div>
+                                <div onclick="selectUniversalOption('dropdown-disk-brand', 'chevrolet', 'img/chevrolet.jpg')" class="flex items-center gap-2 p-2 hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                                    <img src="img/chevrolet.jpg" class="w-5 h-5 object-contain">
+                                    <span class="text-xs text-black uppercase font-bold">Chevrolet</span>
+                                </div>
+                                <div onclick="selectUniversalOption('dropdown-disk-brand', 'rover', 'img/rover.jpg')" class="flex items-center gap-2 p-2 hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                                    <img src="img/rover.jpg" class="w-5 h-5 object-contain">
+                                    <span class="text-xs text-black uppercase font-bold">Rover</span>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <select class="w-full p-2 text-xs text-black" disabled><option>Выберите модель</option></select>
+                        <select class="w-full p-2 text-xs text-black" disabled><option>Модификация</option></select>
+                    </div>
+                </div>
+
+                <img src="img/disk-bg.jpg" class="absolute -bottom-32 left-1/2 -translate-x-1/2 w-[210%] z-10 opacity-40 pointer-events-none max-w-none">
+                <div class="flex justify-between items-end relative z-20">
+                    <button id="disk-footer-btn" class="text-[10px] font-bold uppercase text-gray-300 hover:text-white border-b border-dotted">Больше параметров +</button>
+                    <button class="bg-red-600 text-white px-8 py-2 font-black uppercase text-sm italic hover:bg-red-700 shadow-md">Подобрать</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+  
+
+<!--section6 ------------------------------>
+<div class="max-w-[1300px] mx-auto py-10 font-sans bg-white">
+    <div class="flex gap-8 items-start border-t border-gray-100 pt-8">
+        
+        <div class="w-1/4 relative group">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/banner1.jpg" alt="Давление в шинах" class="w-full h-auto">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/banner2.jpg" alt="Давление в шинах" class="w-full h-auto">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/banner3.jpg" alt="Давление в шинах" class="w-full h-auto">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/banner4.jpg" alt="Давление в шинах" class="w-full h-auto">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/banner5.jpg" alt="Давление в шинах" class="w-full h-auto">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/banner6.jpg" alt="Тесты шин" class="w-full h-auto">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/banner7.jpg" alt="Тесты шин" class="w-full h-auto">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/banner8.jpg" alt="Тесты шин" class="w-full h-auto">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+        <div class="w-3/4 grid grid-cols-4 w-[1000px] m-auto">
+            
+            <div class="border-l-2 border-red-600 pl-4 h-fit">
+                <h3 class="font-black italic uppercase text-[15px] mb-4 tracking-tight">Помощь</h3>
+                <ul class="text-[12px] space-y-2 font-medium">
+                    <li><a href="#" class="footer-link">Всё об оплате</a></li>
+                    <li><a href="#" class="footer-link">Доставка шин и дисков</a></li>
+                    <li><a href="#" class="footer-link">Гарантия на шины</a></li>
+                    <li><a href="#" class="footer-link">Гарантия на диски</a></li>
+                    <li><a href="#" class="footer-link">Обмен и возврат</a></li>
+                    <li><a href="#" class="footer-link">Задать вопрос специалисту</a></li>
+                    <li><a href="#" class="footer-link">Как сделать заказ?</a></li>
+                    <li><a href="#" class="footer-link">Как заработать с Покрышка.ru</a></li>
+                    <li><a href="#" class="footer-link">Карта сайта</a></li>
+                    <li><a href="#" class="footer-link">Контакты</a></li>
+                    <li><a href="#" class="footer-link">Задать вопрос специалисту</a></li>
+                </ul>
+            </div>
+
+            <div class="border-l-2 border-red-600 pl-4 ml-[40px] h-fit w-[200px]">
+                <h3 class="font-black italic uppercase text-[15px] mb-4 tracking-tight">
+                    <span class="text-red-600 text-lg">o</span> Шинах
+                </h3>
+                <ul class="text-[12px] space-y-2 font-medium">
+                    <li><a href="#" class="footer-link">Маркировка шин</a></li>
+                    <li><a href="#" class="footer-link">Параметры дисков</a></li>
+                    <li><a href="#" class="footer-link">Давление в шинах</a></li>
+                    <li><a href="#" class="footer-link">Неравномерный износ шины</a></li>
+                    <li><a href="#" class="footer-link">Спускает колесо?</a></li>
+                    <li><a href="#" class="footer-link">Ремонт шины</a></li>
+                    <li><a href="#" class="footer-link">Отзывы о дисках</a></li>
+                    <li><a href="#" class="footer-link">Отзывы о шинах</a></li>
+                    <li><a href="#" class="footer-link">Калькулятор шин</a></li>
+                    <li><a href="#" class="footer-link">Информация: шины, диски</a></li>
+                    <li><a href="#" class="footer-link">Тесты автошин</a></li>
+                </ul>
+            </div>
+
+            
+
+            <div class="border-l-2 border-red-600 pl-4 ml-[100px] h-fit w-[300px]">
+                <h3 class="font-black italic uppercase text-[15px] mb-4 tracking-tight text-red-600">Новости</h3>
+                <ul class="text-[12px] space-y-4 font-bold leading-tight">
+                    <li><a href="#" class="footer-link">ТОП-10 летних шин 205/55 R16</a></li>
+                    <li><a href="#" class="footer-link">Gislaved будет производить зимние шины диаметром 22 дюйма</a></li>
+                    <li><a href="#" class="footer-link">Ikon Tyres готовит запуск нового бренда Credo и внедорожных шин Magnetar</a></li>
+                    <li><a href="#" class="footer-link">Nokian представила зимние шины с выдвигающимися шипами</a></li>
+                    <li><a href="#" class="footer-link">Nexen Tire открыла центр испытаний зимних шин в Ивало</a></li>
+                    <li><a href="#" class="footer-link">Bridgestone представила флагманскую шину Blizzak IcePeak</a></li>
+                </ul>
+                
+                <button class="mt-8 bg-[#55595c] text-white text-[10px] px-3 py-1.5 font-bold uppercase flex items-center gap-2 hover:bg-black transition-colors">
+                    <span class="text-lg leading-none">≡</span> Все новости
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--slider -------------------------->
+
+<div class="product-slider-wrapper  mx-auto py-5 px-4 bg-white font-sans">
+  
+  <h2 class="text-[#0089cf] font-bold text-center mb-2 uppercase text-xl tracking-[0.1em]">
+    Хиты продаж для зимы
+  </h2>
+
+  <div class="swiper myTireSlider relative pb-9">
+    <div class="swiper-wrapper">
+      
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-pirelli.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker1.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-yokohama.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker2.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_ckad.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker3.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_kik.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker4.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-pirelli.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker5.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-yokohama.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker6.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_ckad.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker7.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+ <div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_kik.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker8.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+
+
+      
+
+     
+
+     
+      
+         
+
+      </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+
+
+
+
+<!--slider2 ----------------------------->
+<div class="product-slider-wrapper  mx-auto  px-4 bg-white font-sans">
+  
+  <h2 class="text-[#f66f02] font-bold text-center mb-2 uppercase text-xl tracking-[0.1em]">
+    Популярные летние модели
+  </h2>
+
+  <div class="swiper myTireSlider relative pb-9">
+    <div class="swiper-wrapper">
+      
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-pirelli.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker9.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-yokohama.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker10.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_ckad.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker11.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_kik.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker12.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-pirelli.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker13.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-yokohama.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker14.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_ckad.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker15.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+ <div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_kik.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/teker16.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+
+
+      
+
+     
+
+     
+      
+         
+
+      </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+
+
+<!--slider3 --------------------------->
+
+<div class="product-slider-wrapper  mx-auto  px-4 bg-white font-sans">
+  
+  <h2 class=" font-bold text-center mb-2 uppercase text-xl tracking-[0.1em]">
+    Популярные диски
+  </h2>
+
+  <div class="swiper myTireSlider relative pb-9">
+    <div class="swiper-wrapper">
+      
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-pirelli.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/disk1.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-yokohama.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/disk2.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_ckad.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/disk3.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_kik.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/disk4.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-pirelli.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/disk5.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-yokohama.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/disk6.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_ckad.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/disk7.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+ <div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: <span class="text-gray-700 font-medium">13-18"</span>
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        <span class="text-[11px] text-gray-500 ">от</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_kik.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/disk8.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+      </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+
+<!--slider4 ---------------------->
+<div class="product-slider-wrapper  mx-auto  px-4 bg-white font-sans">
+  
+  <h2 class=" font-bold text-center mb-2 uppercase text-xl tracking-[0.1em]">
+    Аксессуары
+  </h2>
+
+  <div class="swiper myTireSlider relative pb-9">
+    <div class="swiper-wrapper">
+      
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: 
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+       
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-pirelli.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/levazimat1.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: 
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+      
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-yokohama.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/levazimat2.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: 
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_ckad.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/levazimat3.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: 
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+     
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_kik.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/levazimat4.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: 
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-pirelli.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/levazimat5.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: 
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-yokohama.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/levazimat6.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: 
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+        
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_ckad.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/levazimat7.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+ <div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Cordiant Snow Cross 2
+      </h3>
+      <span class="text-blue-400 text-xl">❄️</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+      Доступные диаметры: 
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <div class="flex flex-col">
+       
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">руб.</span>
+        </div>
+        
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+          </div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">в наличии</span>
+        </div>
+
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo_kik.jpg" alt="Cordiant" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+    </div>
+
+    <img 
+      src="img/levazimat8.jpg" 
+      alt="Tire" 
+      class="absolute -right-2 top-[100px] w-30 h-55 object-right object-contain pointer-events-none z-0"
+    >
+    
+  </div>
+</div>
+      </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+
+
+
+<!--slider5 ------------------------->
+<div class="product-slider-wrapper  mx-auto  px-4 bg-white font-sans">
+  
+  <h2 class=" font-bold text-center mb-2 uppercase text-xl tracking-[0.1em]">
+    Аксессуары
+  </h2>
+
+  <div class="swiper myTireSlider relative pb-9">
+    <div class="swiper-wrapper">
+      
+<div class="swiper-slide h-[250px]">
+  <div class="group   border border-gray-100 p-6 rounded-sm  flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Лариса 
+      </h3>
+      <span class="text-red-700 text-xl">★★★★★</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+     30.10.2024
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <p class="text-[12px] mt-5">
+        Понравился магазин. Заказала комплект дисков. У меня была проблема с оплатой-оплата не проходила, менеджеры помогли  решить проблему, оперативно отправили груз, рекомендовали ТК по моим запросам. Заказ получен раньше срока. Каждый диск упакован. Всё  отлично. Благодарю, коллектив,...
+      </p>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm  flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+       Татьяна 
+      </h3>
+      <span class="text-red-700 text-xl">★★★★★</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+     23.09.2024
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <p class="text-[12px] mt-5">
+       Купили летние шины Yokohama, дорогу держат хорошо резина мягкая, безумная, качество хорошее. Размер 205 65 16 стоит на Хундай  Грета, заказ пришёл во время, постоянно были на связи, отвечали на все вопросы.
+      </p>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+       Альбина
+      </h3>
+      <span class="text-red-700 text-xl">★★★★★</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+     13.05.2024
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <p class="text-[12px] mt-5">
+       Покупка шин в Покрышка.ру была удачной. Широкий выбор, разумные цены и профессиональная помощь в подборе. Покрышки оказались качественными, установка прошла быстро. Сервисом довольна, рекомендую..
+      </p>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+       Александр 
+      </h3>
+      <span class="text-red-700 text-xl">★★★★★</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+     24.09.2024
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <p class="text-[12px] mt-5">
+       Покупала резину для своего авто, марка Cordiant, осталась довольна, менеджеру отдельное спасибо за совет.
+      </p>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="swiper-slide h-[250px]">
+  <div class="group   border border-gray-100 p-6 rounded-sm  flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+        Лариса 
+      </h3>
+      <span class="text-red-700 text-xl">★★★★★</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+     30.10.2024
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <p class="text-[12px] mt-5">
+        Понравился магазин. Заказала комплект дисков. У меня была проблема с оплатой-оплата не проходила, менеджеры помогли  решить проблему, оперативно отправили груз, рекомендовали ТК по моим запросам. Заказ получен раньше срока. Каждый диск упакован. Всё  отлично. Благодарю, коллектив,...
+      </p>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm  flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+       Татьяна 
+      </h3>
+      <span class="text-red-700 text-xl">★★★★★</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+     23.09.2024
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <p class="text-[12px] mt-5">
+       Купили летние шины Yokohama, дорогу держат хорошо резина мягкая, безумная, качество хорошее. Размер 205 65 16 стоит на Хундай  Грета, заказ пришёл во время, постоянно были на связи, отвечали на все вопросы.
+      </p>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+       Альбина
+      </h3>
+      <span class="text-red-700 text-xl">★★★★★</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+     13.05.2024
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <p class="text-[12px] mt-5">
+       Покупка шин в Покрышка.ру была удачной. Широкий выбор, разумные цены и профессиональная помощь в подборе. Покрышки оказались качественными, установка прошла быстро. Сервисом довольна, рекомендую..
+      </p>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="swiper-slide h-[250px]">
+  <div class="group relative border border-gray-100 p-6 rounded-sm flex-col h-full bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    
+    <div class="flex justify-between items-start mb-1 relative z-10">
+      <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">
+       Александр 
+      </h3>
+      <span class="text-red-700 text-xl">★★★★★</span>
+    </div>
+    
+    <p class="text-gray-400 text-[12px]  relative z-10">
+     24.09.2024
+    </p>
+
+    <div class="mt-auto relative z-10">
+      <p class="text-[12px] mt-5">
+       Покупала резину для своего авто, марка Cordiant, осталась довольна, менеджеру отдельное спасибо за совет.
+      </p>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+   
+    
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+ 
+      </div>
+
+
+
+      <!--iconlar ------------------>
+      <div class="popular-links-section  mx-auto py-6 px-4 border-t border-gray-200 bg-[#fafafa] font-sans">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <div class="flex gap-4">
+      <div class="mt-1">
+        <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.921-.755 1.688-1.54 1.118l-3.976-2.888a1 1 0 00-1.175 0l-3.976 2.888c-.784.57-1.838-.197-1.539-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+        </svg>
+      </div>
+      <div class="flex-1">
+        <h3 class="text-gray-800 font-bold uppercase text-[15px] leading-tight mb-6">
+          Популярные <br> <span class="text-red-600">типоразмеры</span>
+        </h3>
+        <div class="grid grid-cols-3 gap-x-2 gap-y-1 mb-6">
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">175/70 R13</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">195/65 R15</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">205/55 R16</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">215/65 R16</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">265/75 R16</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">215/55 R17</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">175/65 R14</a>
+           <a href="#" class="text-[#0089cf] text-[13px] hover:underline">175/70 R13</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">195/65 R15</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">205/55 R16</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">215/65 R16</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">265/75 R16</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">215/55 R17</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">175/65 R14</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">185/65 R15</a>
+           <a href="#" class="text-[#0089cf] text-[13px] hover:underline">175/70 R13</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">195/65 R15</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">205/55 R16</a>
+          <a href="#" class="text-[#0089cf] text-[13px] hover:underline">205/60 R16</a>
+          </div>
+        <button class="bg-[#5c666a] text-white text-[11px] mt-[62px] font-bold uppercase px-3  rounded-sm flex items-center gap-2 hover:bg-[#4a5256]">
+          <span class="text-[14px] ">≡</span> ВСЕ РАЗМЕРЫ
+        </button>
+      </div>
+    </div>
+
+    <div class="flex gap-4 border-l border-gray-100 ">
+      <div class="mt-1">
+        <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.921-.755 1.688-1.54 1.118l-3.976-2.888a1 1 0 00-1.175 0l-3.976 2.888c-.784.57-1.838-.197-1.539-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+        </svg>
+      </div>
+      <div class="flex-1">
+        <h3 class="text-gray-800 font-bold uppercase text-[15px] leading-tight mb-6">
+          Популярные <br> <span class="text-red-600">производители дисков</span>
+        </h3>
+        <div class="grid grid-cols-3 gap-4 mb-6">
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/1a.gif" class="max-h-[30px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/1aa.jpg" class="max-h-[30px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/1b.gif" class="max-h-[30px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          </div>
+           <div class="grid grid-cols-3 gap-4 mb-6">
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/1bb.jpg" class="max-h-[30px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/1c.jpg" class="max-h-[30px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/1cc.jpg" class="max-h-[30px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          </div>
+           <div class="grid grid-cols-3 gap-4 mb-6">
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/1d.jpg" class="max-h-[30px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/1dd.jpg" class="max-h-[30px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/1e.jpg" class="max-h-[30px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          </div>
+        <button class="bg-[#5c666a] text-white text-[11px] mt-[79px]  font-bold uppercase px-3  rounded-sm flex items-center gap-2 hover:bg-[#4a5256]">
+          <span class="text-[14px]">≡</span> ВСЕ ПРОИЗВОДИТЕЛИ ДИСКОВ
+        </button>
+      </div>
+    </div>
+
+    <div class="flex gap-4 border-l border-gray-100 ">
+      <div class="mt-1 text-red-600">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.921-.755 1.688-1.54 1.118l-3.976-2.888a1 1 0 00-1.175 0l-3.976 2.888c-.784.57-1.838-.197-1.539-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+        </svg>
+      </div>
+      <div class="flex-1">
+        <h3 class="text-gray-800 font-bold uppercase text-[15px] leading-tight mb-6">
+          Популярные <br> <span class="text-red-600">производители шин</span>
+        </h3>
+        <div class="grid grid-cols-3 gap-4 mb-6">
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/1ee.jpg" class="max-h-[25px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/1f.jpg" class="max-h-[25px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/1ff.gif" class="max-h-[25px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          </div>
+          <div class="grid grid-cols-3 gap-4 mb-6">
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/accuride-logo.jpg" class="max-h-[25px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/aezlogo.jpg" class="max-h-[25px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/alcasta_logo.jpg" class="max-h-[25px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          </div>
+          <div class="grid grid-cols-3 gap-4 mb-6">
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/alutec-logo.jpg" class="max-h-[25px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/carwel.jpg" class="max-h-[25px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/continental.jpg" class="max-h-[25px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          </div>
+          <div class="grid grid-cols-3 gap-4 mb-6">
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/dezent-logo.jpg" class="max-h-[25px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/hankook.jpg" class="max-h-[25px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          <a href="#" class="group h-8 flex items-center">
+            <img src="img/kfz-stahlrad-logo.jpg" class="max-h-[25px] grayscale group-hover:grayscale-0 transition-all duration-300">
+          </a>
+          </div>
+        <button class="bg-[#5c666a] text-white text-[11px] font-bold uppercase px-3  rounded-sm flex items-center gap-2 hover:bg-[#4a5256]">
+          <span class="text-[14px]">≡</span> ВСЕ ПРОИЗВОДИТЕЛИ ШИН
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<!--teker bg --------------------->
+
+<div class="info-section max-w-8xl mx-auto py-16 px-5  bg-white font-sans relative overflow-hidden border-t border-gray-100">
+  
+  <div class="absolute right-[-50px] top-[250px] -translate-y-1/2 w-[400px] h-[300px] opacity-100 pointer-events-none z-0">
+    <img src="img/about-bg.jpg" alt="background" class="w-full h-full object-contain object-right">
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-12 relative z-10">
+    
+    <div class="md:col-span-5">
+      <h2 class="text-[13px] font-bold text-2xl mb-4 leading-tight">
+        Интернет-магазин <br> 
+        шин и дисков — <span class="text-[#4d5059]">«Покрышка.ру»</span>
+      </h2>
+      
+      <div class="space-y-2 leading-tight  text-gray-900 text-[14px] leading-relaxed">
+        <p>
+          В нашем интернет-магазине шин и дисков вы не встретите подделок. Мы торгуем только фирменным товаром, закупая его только у официальных дилеров.
+        </p>
+        <p>
+          Делая покупку в нашем магазине, вы гарантированно получаете качественные шины и диски произведенные непосредственно на заводах ведущих производителей. Закупая продукцию большими партиями мы добиваемся значительных скидок. В нашем ассортименте все лучшие бренды!
+        </p>
+        <p class="text-gray-500 italic mt-6">
+          Почему стоит покупать именно в «Покрышка.ру»?
+        </p>
+      </div>
+    </div>
+
+    <div class="md:col-span-7 border-l border-gray-100 pl-10">
+      <h2 class="text-[#333] font-bold text-2xl mb-4 leading-tight">
+        ПОЧЕМУ У НАС <br> 
+        <span class="text-red-600 uppercase">дешевле?</span>
+      </h2>
+
+      <ul class="space-y-1">
+        <li class="flex items-start gap-4">
+          <span class="w-2 h-2 rounded-full bg-red-600 shrink-0 mt-1.5"></span>
+          <p class="text-[13px] text-gray-800 leading-tight">Бесплатная доставка комплекта авторезины (или дисков) по Москве и до транспортной компании!</p>
+        </li>
+        <li class="flex items-start gap-4">
+          <span class="w-2 h-2 rounded-full bg-red-600 shrink-0 mt-1.5"></span>
+          <p class="text-[13px] text-gray-800 leading-tight">Вы гарантированно приобретаете только качественный товар — никаких подделок.</p>
+        </li>
+        <li class="flex items-start gap-4">
+          <span class="w-2 h-2 rounded-full bg-red-600 shrink-0 mt-1.5"></span>
+          <p class="text-[13px] text-gray-800 leading-tight">У нас прямые поставки от официальных дилеров и доступные цены.</p>
+        </li>
+        <li class="flex items-start gap-4">
+          <span class="w-2 h-2 rounded-full bg-red-600 shrink-0 mt-1.5"></span>
+          <p class="text-[13px] text-gray-800 leading-tight">Удобный подбор шин и дисков, как по параметрам, так и по марке автомобиля.</p>
+        </li>
+        <li class="flex items-start gap-4">
+          <span class="w-2 h-2 rounded-full bg-red-600 shrink-0 mt-1.5"></span>
+          <p class="text-[13px] text-gray-800 leading-tight">Мы имеем большой опыт работы и хороших специалистов, которые смогут порекомендовать вам действительно хорошие шины и диски, проверенные временем.</p>
+        </li>
+        <li class="flex items-start gap-4">
+          <span class="w-2 h-2 rounded-full bg-red-600 shrink-0 mt-1.5"></span>
+          <p class="text-[13px] text-gray-800 leading-tight">На сайте вы найдете всю интересующую вас информацию о параметрах колес, плюсах и минусах различных моделей, новости в мире зимних и летних шин, всесезонной резины и тесты.</p>
+        </li>
+        <li class="flex items-start gap-4">
+          <span class="w-2 h-2 rounded-full bg-red-600 shrink-0 mt-1.5"></span>
+          <p class="text-[13px] text-gray-800 font-bold italic leading-tight">Это поможет вам сделать правильный выбор.</p>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+    </section>
+
+    <!--footer 1 ---------------------------->
+
+    <div class=" w-[1380px]  flex mx-auto  justify-between item-center mr-[10px] py-10  font-sans border-t border-gray-100">
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+    
+    <div class="md:col-span-4 ">
+      <h3 class="text-[#333] text-xl font-normal mb-6">
+        Как купить шины и диски <br> в нашем магазине?
+      </h3>
+      
+      <p class="text-gray-600 text-[13px] mb-4">Оформить заказ можно по многоканальному тел:</p>
+      
+      <div class="flex items-baseline gap-2 mb-6">
+        <span class="text-2xl font-bold text-black">+7 495</span>
+        <span class="text-3xl font-bold text-red-600">995-80-40</span>
+        <div class="text-[11px] text-gray-500 leading-tight">
+          у наших операторов <br> с 9-00 до 21-00
+        </div>
+      </div>
+      
+      <p class="text-gray-600 text-[13px] leading-relaxed">
+        по московскому времени ежедневно (без выходных дней). <br>
+        Также Вы можете круглосуточно купить шины через Интернет, оформив свой заказ на нашем сайте.
+      </p>
+    </div>
+
+    <div class="md:col-span-5 flex flex-col gap-6">
+      <p class="text-[12px] text-gray-500 italic">
+        Продажа автошин, дисков или колес производится за наличный и безналичный расчет. <br>
+        Оплату также можно произвести с помощью карт VISA, VISA-Electron, MasterCard, Maestro.
+      </p>
+      
+      <div class="flex items-center gap-4">
+  <div class="shrink-0">
+    <img src="img/delivery-home.png" alt="delivery">
+  </div>
+  
+  <div class="text-[#1a365d] font-bold text-[15px] uppercase leading-tight">
+    Доставка колес по Москве при покупке <br> комплекта — <span class="text-blue-600">Бесплатно!</span>
+  </div>
+</div>
+      
+      <p class="text-[12px] text-gray-600">
+        Вы можете задать интересующий вопрос в разделе «задать вопрос специалисту», либо получить консультацию по бесплатному номеру: 8 800 500-80-66.
+      </p>
+    </div>
+
+    <div class="md:col-span-3 flex flex-col  gap-8">
+      <div class="flex items-start gap-3 grayscale opacity-70">
+        <img src="img/visa.svg" alt="Visa" class="h-6">
+        
+      </div>
+      
+      <div >
+        <p class="text-[12px] text-gray-500 mb-2">мы в социальных сетях —</p>
+        <div class="flex justify-start gap-2">
+          <a href="#" class="bg-[#517397] p-1 rounded-sm"><img src="img/vk.svg" class="w-6 h-6"></a>
+          <a href="#" class="bg-[#e52d27] p-1 rounded-sm"><img src="img/youtube.svg" class="w-6 h-6"></a>
+        </div>
+      </div>
+      
+      <div>
+        <p class="text-[12px] text-gray-500 mb-1">Рейтинг магазина:</p>
+        <div class="flex items-start justify-start gap-2">
+          <div class="flex text-red-600 text-lg">★★★★★</div>
+          <span class="font-bold text-gray-800 text-lg">4.9</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--footer ------------------->
+<footer class="container w-[1370px] item-center m-auto mt-10 mb-3 bg-white ">
+  <div class="max-w-7xl mx-auto ">
+    
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-x-4 mb-16">
+      
+      <div class="md:col-span-2 mt-10">
+        <ul class="space-y-2 uppercase text-[13px] font-extrabold text-black border-l-[3px] border-red-600 pl-4 tracking-tight">
+          <li><a href="#" class="hover:text-red-600 transition-colors">ШИНЫ</a></li>
+          <li><a href="#" class="hover:text-red-600 transition-colors">ДИСКИ</a></li>
+          <li><a href="#" class="hover:text-red-600 transition-colors">СЕКРЕТКИ</a></li>
+          <li><a href="#" class="hover:text-red-600 transition-colors">АКСЕССУАРЫ</a></li>
+          <li><a href="#" class="hover:text-red-600 text-red-600 transition-colors">РАСПРОДАЖА</a></li>
+          <li><a href="#" class="hover:text-red-600 transition-colors">КАЛЬКУЛЯТОР ШИН</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-2 text-[13px] mt-10">
+        <ul class="space-y-1.5 text-gray-700">
+          <li><a href="#" class="hover:text-red-600 hover:underline">Помощь</a></li>
+          <li><a href="#" class="hover:text-red-600 hover:underline">Доставка</a></li>
+          <li><a href="#" class="hover:text-red-600 hover:underline">Оплата</a></li>
+          <li><a href="#" class="hover:underline">Избранное</a></li>
+          <li><a href="#" class="hover:underline">Сравнение</a></li>
+          <li class="pt-3"><a href="#" class="hover:underline">Войти</a></li>
+          <li><a href="#" class="hover:underline">Контакты</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-2 text-[13px] mt-10">
+        <ul class="space-y-1.5 text-gray-700">
+          <li><a href="#" class="hover:text-red-600 hover:underline">Обмен и возврат</a></li>
+          <li><a href="#" class="hover:text-red-600 hover:underline">Гарантия на шины</a></li>
+          <li><a href="#" class="hover:text-red-600 hover:underline">Гарантия на диски</a></li>
+          <li><a href="#" class="hover:text-red-600 hover:underline">Вопросы-ответы</a></li>
+          <li><a href="#" class="hover:text-red-600 hover:underline">Новости</a></li>
+          <li class="pt-3"><a href="#" class="hover:underline">Обратная связь</a></li>
+          <li><a href="#" class="hover:underline">Карта сайта</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-2 mt-10">
+        <p class="text-[12px] text-gray-400 mb-3">Поделиться:</p>
+        <div class="flex gap-2.5 mb-6">
+          <a href="#" class="text-[#4c75a3] text-xl hover:scale-110 transition-transform"><i class="fab fa-vk"></i></a>
+          <a href="#" class="text-[#0088cc] text-xl hover:scale-110 transition-transform"><i class="fab fa-telegram"></i></a>
+          <a href="#" class="text-[#7360f2] text-xl hover:scale-110 transition-transform"><i class="fab fa-viber"></i></a>
+          <a href="#" class="text-[#25d366] text-xl hover:scale-110 transition-transform"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="space-y-4 mt-10">
+          <a href="mailto:info@pokrishka.ru" class="flex items-center gap-2 text-[13px] text-gray-800 font-medium group">
+            <i class="fa-solid fa-envelope text-red-600 group-hover:scale-110 transition-transform"></i> 
+            <span class="border-b border-transparent group-hover:border-gray-800 transition-all">info@pokrishka.ru</span>
+          </a>
+          <a href="#" class="flex items-center gap-2 text-[13px] text-gray-800 font-medium group">
+            <i class="fa-solid fa-circle text-[8px] text-green-500"></i> 
+            <span class="border-b border-transparent group-hover:border-gray-800 transition-all">написать нам</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="md:col-span-4 flex flex-col items-end mt-10">
+        <div class="flex flex-wrap justify-end gap-x-8 gap-y-2 mb-8 text-right">
+          <div>
+            <p class="text-[22px] font-black text-black leading-none mb-1">+7 495 995-80-40</p>
+            <p class="text-[11px] text-gray-400">с 9:00 - 21:00 (без выходных)</p>
+          </div>
+          <div>
+            <p class="text-[22px] font-black text-black leading-none mb-1">8 800 500-80-66</p>
+            <p class="text-[11px] text-gray-400">по России (бесплатно)</p>
+          </div>
+        </div>
+
+<div class="w-full max-w-[380px] border border-red-500 flex items-stretch cursor-pointer hover:bg-red-600 transition-all duration-300 mb-8 group bg-white">
+  
+  <div class="bg-white px-4 py-3 flex items-center justify-center transition-colors duration-300 group-hover:bg-red-600">
+     <i class="fa-solid fa-envelope text-red-600 text-lg  group-hover:text-white l-[10px]"></i>
+  </div>
+
+  <div class="flex-grow flex items-center justify-center px-4">
+     <span class="text-black font-bold text-[13px] uppercase tracking-tighter transition-colors duration-300 group-hover:text-white">
+       Подпишитесь на наши скидки
+     </span>
+  </div>
+</div>
+
+        <div class="flex items-center gap-8">
+          <div class="flex items-center gap-3 cursor-pointer group">
+            <span class="text-[12px] font-bold border-b border-black uppercase group-hover:text-red-600 group-hover:border-red-600 transition-colors">Прошу позвонить</span>
+            <img src="img/smartphone-call.svg" alt="callback" class="h-9 group-hover:shake transition-all">
+          </div>
+          <img src="img/pokrishka-logo.svg" alt="Покрышка.ру" class="h-11">
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12  border-t border-gray-100 text-[11px] text-gray-400 leading-[1.6]">
+      <div class="hover:text-gray-600 transition-colors">
+        На сайте вы сможете найти много полезной информации, шинный калькулятор, обзоры и полезные советы. На страницах нашего магазина автошин Вы можете увидеть качественные фотографии шин и дисков, узнать их цены и технические характеристики.
+      </div>
+      <div class="hover:text-gray-600 transition-colors">
+        К Вашим услугам иллюстрированные каталоги: автошины, колесные диски, а также большой раздел автомобильных аксессуаров, в котором вы сможете найти: детские автокресла, багажники на крышу, цепи на колеса, наборы для ремонта шин и многое другое.
+      </div>
+      <div class="text-right">
+        <p class="mb-1 text-gray-500">Интернет-магазин шин и дисков «Покрышка.ру» ©</p>
+        <p>Copyright Pokrishka.ru 2003-2026</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
