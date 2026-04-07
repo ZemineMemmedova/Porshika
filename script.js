@@ -76,14 +76,14 @@ window.onclick = function(event) {
             paramsContent.classList.remove('hidden');
             paramsContent.classList.add('block');
             autoContent.classList.add('hidden');
-            tabParams.className = "bg-[#333638] text-white px-2 py-1 transition-all";
-            tabAuto.className = "bg-white text-gray-800 px-2 py-1 transition-all";
+            tabParams.className = "bg-[#333638] text-white px-2 py-3 transition-all";
+            tabAuto.className = "bg-white text-gray-800 px-2 py-3 transition-all";
         } else {
             paramsContent.classList.add('hidden');
             autoContent.classList.remove('hidden');
             autoContent.classList.add('block');
-            tabAuto.className = "bg-[#333638] text-white px-2 py-1 transition-all";
-            tabParams.className = "bg-white text-gray-800 px-2 py-1 transition-all";
+            tabAuto.className = "bg-[#333638] text-white px-2 py-3 transition-all";
+            tabParams.className = "bg-white text-gray-800 px-2 py-3 transition-all";
         }
     }
 
@@ -124,43 +124,36 @@ window.onclick = function(event) {
 //disk mentiqinin islemesi
 
 function toggleTab(section, type) {
-    // Bölmələrin məzmun div-ləri
     const paramsContent = document.getElementById(section + '-params-content');
     const autoContent = document.getElementById(section + '-auto-content');
-    
-    // Tab düymələri
     const tabParams = document.getElementById(section + '-tab-params');
     const tabAuto = document.getElementById(section + '-tab-auto');
-    
-    // Alt düymə mətni
     const footerBtn = document.getElementById(section + '-footer-btn');
 
+    // Stil Sabitləri
+    const activeDark = "bg-[#333638] text-white px-2 py-2 transition-all font-bold uppercase cursor-pointer";
+    const activeWhite = "bg-white text-gray-900 px-2 py-2 transition-all font-bold uppercase cursor-pointer";
+
     if (type === 'params') {
-        // Parametrləri göstər
-        paramsContent.classList.remove('hidden');
-        paramsContent.classList.add('block');
-        autoContent.classList.remove('block');
-        autoContent.classList.add('hidden');
+        // Məzmunu dəyiş
+        paramsContent.classList.replace('hidden', 'block');
+        autoContent.classList.replace('block', 'hidden');
         
-        // Tab rənglərini dəyiş (Seçilmiş: Tünd, Seçilməmiş: Ağ)
-        tabParams.className = "bg-[#333638] text-white px-2 py-1 transition-all";
-        tabAuto.className = "bg-white text-gray-800 px-2 py-1 transition-all";
+        // Düymə rəngləri: Parametrlər AĞ, Avtomobil TÜND (Şəkildəki sol tərəf kimi)
+        tabParams.className = activeWhite;
+        tabAuto.className = activeDark;
         
-        // Alt düyməni yenilə
-        footerBtn.innerText = section === 'shin' ? "Больше параметров +" : "Больше параметров +";
+        footerBtn.innerText = "Daha çox parametr +";
     } else {
-        // Avtomobili göstər
-        paramsContent.classList.remove('block');
-        paramsContent.classList.add('hidden');
-        autoContent.classList.remove('hidden');
-        autoContent.classList.add('block');
+        // Məzmunu dəyiş
+        paramsContent.classList.replace('block', 'hidden');
+        autoContent.classList.replace('hidden', 'block');
         
-        // Tab rənglərini dəyiş (Seçilmiş: Tünd, Seçilməmiş: Ağ)
-        tabAuto.className = "bg-[#333638] text-white px-2 py-1 transition-all";
-        tabParams.className = "bg-white text-gray-800 px-2 py-1 transition-all";
+        // Düymə rəngləri: Avtomobil AĞ, Parametrlər TÜND (Şəkildəki sağ tərəf kimi)
+        tabAuto.className = activeWhite;
+        tabParams.className = activeDark;
         
-        // Alt düyməni yenilə
-        footerBtn.innerText = section === 'shin' ? "Каталог авто +" : "Каталог авто +";
+        footerBtn.innerText = "Kataloq avto +";
     }
 }
 
