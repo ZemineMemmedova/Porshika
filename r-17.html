@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+</head>
+
+<body class="bg-[rgb(241,241,241)] m-0 p-0 h-full w-full">
+    <header class="container w-[1370px] item-center m-auto mb-3">
+        <div class=" py-2 text-[12px] text-[#333]">
+            <div class="container mx-auto px-4 flex items-center justify-between">
+
+                <div class="flex-1 text-left">
+                    <a href="#" class="group inline-block italic">
+                        <span
+                            class="text-[#555] font-bold  text-[14px] border-red-500 group-hover:border-transparent transition-all">
+                            Moskva-da şin dəsti çatdırılması — <span class="text-red-600 text-[14px]">Pulsuzdur!</span>
+                        </span>
+                    </a>
+                </div>
+
+                <div class=" group flex-1 flex justify-center items-center">
+                    <div class="flex items-center cursor-pointer group">
+                        <i class="fas fa-map-marker-alt text-gray-900 mr-1 text-[14px]"></i>
+                        <span class="text-[#333]">Sizin bölgə: </span>
+                        <span
+                            class="ml-1 border-b  border-gray-600 group-hover:border-transparent transition-all duration-300">
+                            Müəyyən edilmədi
+                        </span>
+                        <i class="fas fa-chevron-down ml-1 text-[10px] text-gray-400"></i>
+                    </div>
+                </div>
+
+                <div class="flex-1 flex justify-end items-center space-x-5">
+                    <a href="#"
+                        class="flex items-center hover:text-red-600 text-[15px] px-2 py-0.5 rounded-sm font-bold">
+                        <i class="fas fa-info-circle mr-1 text-gray-700"></i> Kömək
+                    </a>
+
+                    <a href="contacts.html" class="flex items-center hover:text-red-600 font-bold text-[15px]">
+                        <i class="fas fa-phone-alt mr-1 text-gray-700 rotate-90 "></i> Əlaqələr
+                    </a>
+
+                    <a href="#" class="flex items-center hover:text-red-600 font-bold text-[15px]">
+                        <i class="fas fa-user mr-1 text-gray-700 "></i> Daxil ol
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <section class="max-w-[1370px] bg-white justify-center item-center m-auto">
+        <div class="py-8 px-6 flex items-center justify-between border-t-4  border-gray-600  ">
+
+            <div class="flex flex-col">
+                <a href="/index.html">
+                    <img src="img/pokrishka-logo.svg" alt="Pokryshka.ru" class="h-10 w-auto">
+                </a>
+                <span class="text-[11px] text-gray-400 mt-1">internet şin və disk mağazası</span>
+            </div>
+
+            <div class="flex items-center space-x-10">
+                <div class="text-center">
+                    <div class="text-[20px] font-bold text-black leading-none">
+                        +7 495 <span class="text-red-600">995-80-40</span>
+                    </div>
+                    <div class="text-[11px] text-gray-500 mt-1 font-medium italic">9:00 - 21:00 (qeyri-iş günləri
+                        olmadan)</div>
+                </div>
+
+                <div class="text-center">
+                    <div class="text-[20px] font-bold text-black leading-none">
+                        8 800 <span class="text-red-600">500-80-66</span>
+                    </div>
+                    <div class="text-[11px] text-gray-500 mt-1 font-medium italic">Rusiya boyunca (pulsuzdur)</div>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-8">
+                <div class="flex items-center border-l border-gray-200 pl-8 space-x-3">
+                    <div class="text-right">
+                        <a href="#"
+                            class="text-[11px] font-bold border-b border-black uppercase leading-[1.1] hover:border-transparent transition-all">
+                            Zəhmət olmasa<br>zəng edin
+                        </a>
+                    </div>
+                    <img src="img/smartphone-call.svg" alt="phone" class="w-8 h-8">
+                </div>
+
+                <div class="flex items-center border-l border-gray-200 pl-8">
+                    <div class="relative mr-4">
+                        <i class="fas fa-shopping-cart text-[35px] text-gray-700"></i>
+                        <div class="absolute -bottom-1 left-1.5 flex space-x-2.5">
+                            <div class="w-2 h-2 bg-gray-700 rounded-full border border-white"></div>
+                            <div class="w-2 h-2 bg-gray-700 rounded-full border border-white"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-[19px] font-extrabold text-[#333] leading-none">Səbət</span>
+                        <span class="text-[11px] text-gray-500 mt-1 leading-tight">
+                            Sizin <b class="text-black">0 məhsulunuz</b><br>
+                            cəmi <b class="text-black">0 rub.</b>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--dropdown-->
+
+        <div class="border-t border-b border-gray-200 py-1 px-6 flex items-center justify-between bg-white">
+
+            <nav class="flex items-center text-[14px] font-bold uppercase">
+
+
+
+                <div class="group relative">
+                    <a href="#"
+                        class="flex items-center px-4 py-3 hover:text-red-600 transition-colors font-bold uppercase text-[14px]">
+                        <span class="text-red-600">Ş</span><span>inlər</span>
+                        <i class="fas fa-chevron-down ml-2 text-[10px] text-gray-400"></i>
+                    </a>
+
+                    <div class="absolute left-[-27px] top-full z-50 
+                w-[900px] border border-gray-300 bg-white p-6 shadow-2xl 
+                invisible opacity-0 translate-y-2 
+                transition-all duration-500 ease-out 
+                group-hover:visible group-hover:opacity-100 group-hover:translate-y-0">
+
+                        <div class="grid grid-cols-2 gap-4 mb-4">
+                            <div
+                                class="group/img relative h-48 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                <img src="img/winter.jpg" class="h-full w-full object-cover">
+                                <div
+                                    class="absolute inset-0 bg-black/20 group-hover/img:bg-black/50 transition-all duration-300">
+                                </div>
+                                <div class="absolute bottom-3 left-3 text-white">
+                                    <p class="text-[10px] font-bold opacity-90 leading-none uppercase">Şinlər</p>
+                                    <p class="text-2xl font-black italic leading-tight uppercase">Qış şinləri</p>
+                                    <div class="flex space-x-2 mt-1 text-[10px] font-bold">
+                                        <span class="border-b border-white/60 hover:border-white">Çivili</span>
+                                        <span class="border-b border-white/60 hover:border-white">Çivisiz</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="group/img relative h-48 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                <img src="img/summer.jpg" class="h-full w-full object-cover">
+                                <div
+                                    class="absolute inset-0 bg-black/20 group-hover/img:bg-black/50 transition-all duration-300">
+                                </div>
+                                <div class="absolute bottom-3 left-3 text-white">
+                                    <p class="text-[10px] font-bold opacity-90 leading-none uppercase">Şinlər</p>
+                                    <p class="text-2xl font-black italic leading-tight uppercase">Yay şinləri</p>
+                                    <div
+                                        class="mt-1 text-[10px] font-bold border-b border-white/60 hover:border-white inline-block">
+                                        Bütün mövsüm</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-4 gap-4 mb-6">
+                            <div
+                                class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                <img src="img/cars.jpg" class="h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-black/30 group-hover/img:bg-black/55 transition-all">
+                                </div>
+                                <div class="absolute bottom-2 left-2 text-white">
+                                    <p class="text-[8px] font-bold leading-none uppercase">Şinlər üçün</p>
+                                    <p class="text-[11px] font-black leading-tight uppercase">Yolcu avto</p>
+                                </div>
+                            </div>
+                            <div
+                                class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                <img src="img/suvs.jpg" class="h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-black/30 group-hover/img:bg-black/55 transition-all">
+                                </div>
+                                <div class="absolute bottom-2 left-2 text-white">
+                                    <p class="text-[8px] font-bold leading-none uppercase">Şinlər üçün</p>
+                                    <p class="text-[11px] font-black leading-tight uppercase">SUV</p>
+                                </div>
+                            </div>
+                            <div
+                                class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                <img src="img/minibus.jpg" class="h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-black/30 group-hover/img:bg-black/55 transition-all">
+                                </div>
+                                <div class="absolute bottom-2 left-2 text-white">
+                                    <p class="text-[8px] font-bold leading-none uppercase">Şinlər üçün</p>
+                                    <p class="text-[11px] font-black leading-tight uppercase">Mikroavtobus</p>
+                                </div>
+                            </div>
+                            <div
+                                class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                <img src="img/runflat.jpg" class="h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-black/30 group-hover/img:bg-black/55 transition-all">
+                                </div>
+                                <div class="absolute bottom-2 left-2 text-white">
+                                    <p class="text-[8px] font-bold leading-none uppercase">Şinlər üçün</p>
+                                    <p class="text-[11px] font-black leading-tight uppercase">Run-flat</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-0 border-t border-b border-gray-100 py-3 mb-4 items-center">
+                            <div
+                                class="flex items-center space-x-3 px-2 border-r border-gray-100 hover:text-red-600 cursor-pointer group/icon">
+                                <img src="img/teker.png" class="w-16 h-16 object-contain">
+                                <span class="text-[12px] font-bold leading-tight">Şinləri ölçüyə<br>görə axtarış</span>
+                            </div>
+                            <div
+                                class="flex items-center space-x-3 px-2 border-r border-gray-100 hover:text-red-600 cursor-pointer group/icon">
+                                <img src="img/bmw.png" class="w-16 h-16 object-contain">
+                                <span class="text-[12px] font-bold leading-tight">Avtomobil üçün<br>şin seçimi</span>
+                            </div>
+                            <div class="flex items-center space-x-3 px-2 hover:text-red-600 cursor-pointer group/icon">
+                                <img src="img/brand.png" class="w-16 h-16 object-contain">
+                                <span class="text-[12px] font-bold leading-tight">Şinləri istehsalçıya<br>görə
+                                    axtarış</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-12">
+                            <div>
+                                <div class="flex justify-between items-center mb-4">
+                                    <h4 class="text-sm font-bold uppercase">Populyar <span class="text-red-600">şin
+                                            istehsalçıları</span></h4>
+
+                                    <div class="flex space-x-2 relative z-10">
+                                        <div
+                                            class="swiper-button-prev-custom cursor-pointer w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-all text-gray-600">
+                                            <i class="fas fa-chevron-left text-[10px]"></i>
+                                        </div>
+                                        <div
+                                            class="swiper-button-next-custom cursor-pointer w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-all text-gray-600">
+                                            <i class="fas fa-chevron-right text-[10px]"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper brandSwiper w-full h-24 overflow-hidden">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/logo-pirelli.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/continental.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/hankook.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/logo-yokohama.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/toyo.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/good-year.jpg" class="h-6 object-contain"></div>
+
+                                        <div class="swiper-slide flex items-center justify-start"><img src="img/1a.gif"
+                                                class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img src="img/1b.gif"
+                                                class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img src="img/1c.jpg"
+                                                class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img src="img/1d.jpg"
+                                                class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img src="img/1e.jpg"
+                                                class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img src="img/1f.jpg"
+                                                class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img src="img/1aa.jpg"
+                                                class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img src="img/1bb.jpg"
+                                                class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img src="img/1cc.jpg"
+                                                class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img src="img/1dd.jpg"
+                                                class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img src="img/1ee.jpg"
+                                                class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img src="img/1ff.gif"
+                                                class="h-6 object-contain"></div>
+                                    </div>
+                                </div>
+
+                                <button
+                                    class="mt-6 bg-[#5a5d61] hover:bg-black text-white text-[10px] font-bold px-4 py-1 uppercase rounded-sm flex items-center transition-all">
+                                    <i class="fas fa-bars mr-2"></i> Bütün istehsalçılar
+                                </button>
+                            </div>
+
+                            <div>
+                                <h4 class="text-sm font-bold uppercase mb-4">Populyar <span
+                                        class="text-red-600">ölçülər</span></h4>
+                                <div class="grid grid-cols-4 gap-y-2 gap-x-2 text-[11.5px] font-bold text-blue-600">
+                                    <a href="#" class="hover:underline">175/70 R13</a>
+                                    <a href="#" class="hover:underline">195/65 R15</a>
+                                    <a href="#" class="hover:underline">215/65 R16</a>
+                                    <a href="#" class="hover:underline">215/55 R17</a>
+                                    <a href="#" class="hover:underline">175/65 R14</a>
+                                    <a href="#" class="hover:underline">205/55 R16</a>
+                                    <a href="#" class="hover:underline">215/70 R16</a>
+                                    <a href="#" class="hover:underline">225/45 R17</a>
+                                    <a href="#" class="hover:underline">175/65 R14</a>
+                                    <a href="#" class="hover:underline">205/55 R16</a>
+                                    <a href="#" class="hover:underline">215/70 R16</a>
+                                    <a href="#" class="hover:underline">225/45 R17</a>
+                                </div>
+                                <button
+                                    class="mt-6 bg-[#5a5d61] hover:bg-black text-white text-[10px] font-bold px-4 py-1 uppercase rounded-sm flex items-center transition-all">
+                                    <i class="fas fa-bars mr-2"></i> Bütün ölçülər
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="group relative">
+                    <a href="#"
+                        class="flex items-center px-4 py-3 font-bold uppercase text-[14px] hover:text-red-600 transition-colors">
+                        <span class="text-red-600">D</span><span>iskləri</span>
+                        <i class="fas fa-chevron-down ml-2 text-[10px] text-gray-400"></i>
+                    </a>
+
+                    <div class="absolute left-[-124px] top-full z-50 
+                w-[900px] border border-gray-300 bg-white p-6 shadow-2xl 
+                invisible opacity-0 translate-y-2 
+                transition-all duration-500 ease-out 
+                group-hover:visible group-hover:opacity-100 group-hover:translate-y-0">
+
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div
+                                class="group/img relative h-44 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                <img src="img/wheels.jpg" class="h-full w-full object-cover">
+                                <div
+                                    class="absolute inset-0 bg-black/20 group-hover/img:bg-black/40 transition-all duration-300">
+                                </div>
+                                <div class="absolute bottom-3 left-3 text-white">
+                                    <p class="text-[10px] font-bold opacity-90 leading-none uppercase">Diskləri</p>
+                                    <p class="text-2xl font-black italic leading-tight uppercase">Tökmə</p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="group/img relative h-44 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                <img src="img/wheels3.jpg" class="h-full w-full object-cover">
+                                <div
+                                    class="absolute inset-0 bg-black/20 group-hover/img:bg-black/40 transition-all duration-300">
+                                </div>
+                                <div class="absolute bottom-3 left-3 text-white">
+                                    <p class="text-[10px] font-bold opacity-90 leading-none uppercase">Diskləri</p>
+                                    <p class="text-2xl font-black italic leading-tight uppercase">Stamplenmiş</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-0 border-t border-b border-gray-100 py-4 mb-6">
+                            <div
+                                class="flex items-center space-x-3 px-4 border-r border-gray-100 hover:text-red-600 cursor-pointer group/item">
+                                <img src="img/disks.png" class="w-20 h-20 object-contain">
+                                <span class="text-[12px] font-bold leading-tight">Disk ölçüyə<br>görə axtarış</span>
+                            </div>
+                            <div
+                                class="flex items-center space-x-3 px-4 border-r border-gray-100 hover:text-red-600 cursor-pointer group/item">
+                                <img src="img/bmw.png" class="w-20 h-20 object-contain">
+                                <span class="text-[12px] font-bold leading-tight">Avtomobil üçün<br>disk seçimi</span>
+                            </div>
+                            <div class="flex items-center space-x-3 px-4 hover:text-red-600 cursor-pointer group/item">
+                                <img src="img/brand.png" class="w-20 h-20 object-contain">
+                                <span class="text-[12px] font-bold leading-tight">İstehsalçıya görə<br>disk
+                                    seçimi</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-10">
+                            <div>
+                                <div class="flex justify-between items-center mb-4">
+                                    <h4 class="text-sm font-bold uppercase">Populyar <span class="text-red-600">disk
+                                            istehsalçıları</span></h4>
+
+                                    <div class="flex space-x-2 relative z-10">
+                                        <div
+                                            class="disk-prev cursor-pointer w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-all text-gray-600">
+                                            <i class="fas fa-chevron-left text-[10px]"></i>
+                                        </div>
+                                        <div
+                                            class="disk-next cursor-pointer w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-all text-gray-600">
+                                            <i class="fas fa-chevron-right text-[10px]"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper diskSwiper w-full h-32 overflow-hidden">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/logo_kik.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/logo_ckad.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/alutec-logo.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/aezlogo.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/dezent-logo.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/kfz-stahlrad-logo.jpg" class="h-6 object-contain"></div>
+
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/accuride-logo.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/alcasta_logo.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/carwel.jpg" class="h-6 object-contain"></div>
+                                        <div class="swiper-slide flex items-center justify-start"><img
+                                                src="img/inforged-logo.jpg" class="h-6 object-contain"></div>
+                                    </div>
+                                </div>
+
+                                <button
+                                    class="mt-6 bg-[#5a5d61] hover:bg-black text-white text-[10px] font-bold px-4 py-1 uppercase rounded-sm flex items-center transition-all">
+                                    <i class="fas fa-bars mr-2"></i> Bütün istehsalçılar
+                                </button>
+                            </div>
+
+                            <div>
+                                <h4 class="text-sm font-bold uppercase mb-4">Populyar <span
+                                        class="text-red-600">tipölçülər</span></h4>
+                                <div class="grid grid-cols-4 gap-y-2 text-[11px] font-bold text-blue-600">
+                                    <a href="#" class="hover:underline">R14 4x100</a>
+                                    <a href="#" class="hover:underline">R15 5x114.3</a>
+                                    <a href="#" class="hover:underline">R16 5x114.3</a>
+                                    <a href="#" class="hover:underline">R18 5x112</a>
+                                    <a href="#" class="hover:underline">R14 4x100</a>
+                                    <a href="#" class="hover:underline">R15 5x114.3</a>
+                                    <a href="#" class="hover:underline">R16 5x114.3</a>
+                                    <a href="#" class="hover:underline">R18 5x112</a>
+                                    <a href="#" class="hover:underline">R14 4x100</a>
+                                    <a href="#" class="hover:underline">R15 5x114.3</a>
+                                    <a href="#" class="hover:underline">R16 5x114.3</a>
+                                    <a href="#" class="hover:underline">R18 5x112</a>
+                                </div>
+                                <button
+                                    class="mt-6 bg-[#5a5d61] hover:bg-black text-white text-[10px] font-bold px-4 py-1 uppercase rounded-sm flex items-center transition-all">
+                                    <i class="fas fa-bars mr-2"></i> Bütün ölçülər
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="group relative">
+                    <a href="#"
+                        class="flex items-center px-4 py-3 font-bold uppercase text-[14px] hover:text-red-600 transition-colors">
+                        <span class="text-red-600">A</span><span>ksesuarlar</span>
+                        <i class="fas fa-chevron-down ml-2 text-[10px] text-gray-400"></i>
+                    </a>
+
+                    <div class="absolute left-[-226px] top-full z-50 
+                w-[700px] border border-gray-300 bg-white p-6 shadow-2xl 
+                invisible opacity-0 translate-y-2 
+                transition-all duration-500 ease-out 
+                group-hover:visible group-hover:opacity-100 group-hover:translate-y-0">
+
+                        <div class="max-w-full mx-auto">
+
+                            <div class="grid grid-cols-3 gap-4 mb-4">
+                                <div
+                                    class="group/img relative h-40 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                    <img src="img/1.jpg" class="h-full w-full object-cover">
+                                    <div
+                                        class="absolute inset-0 bg-black/20 group-hover/img:bg-black/45 transition-all duration-300">
+                                    </div>
+                                    <div class="absolute bottom-3 left-3 text-white">
+                                        <p class="text-[11px] font-black leading-tight uppercase">Ələm
+                                            boltları<br>təkərə</p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="group/img relative h-40 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                    <img src="img/2.jpg" class="h-full w-full object-cover">
+                                    <div
+                                        class="absolute inset-0 bg-black/20 group-hover/img:bg-black/45 transition-all duration-300">
+                                    </div>
+                                    <div class="absolute bottom-3 left-3 text-white">
+                                        <p class="text-[11px] font-black leading-tight uppercase">Təzyiq<br>sensorları
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="group/img relative h-40 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                    <img src="img/3.jpg" class="h-full w-full object-cover">
+                                    <div
+                                        class="absolute inset-0 bg-black/20 group-hover/img:bg-black/45 transition-all duration-300">
+                                    </div>
+                                    <div class="absolute bottom-3 left-3 text-white">
+                                        <p class="text-[11px] font-black leading-tight uppercase">Boltlar və
+                                            qaykalar<br>təkərə üçün</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-4 gap-4">
+                                <div
+                                    class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                    <img src="img/4.jpg" class="h-full w-full object-cover">
+                                    <div
+                                        class="absolute inset-0 bg-black/30 group-hover/img:bg-black/50 transition-all">
+                                    </div>
+                                    <div class="absolute bottom-2 left-2 text-white">
+                                        <p class="text-[10px] font-black leading-tight uppercase">Sürüşmə
+                                            əleyhinə<br>zəncirlər</p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                    <img src="img/5.jpg" class="h-full w-full object-cover">
+                                    <div
+                                        class="absolute inset-0 bg-black/30 group-hover/img:bg-black/50 transition-all">
+                                    </div>
+                                    <div class="absolute bottom-2 left-2 text-white">
+                                        <p class="text-[10px] font-black leading-tight uppercase">
+                                            Avtomobil<br>kompressorları</p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                    <img src="img/6.jpg" class="h-full w-full object-cover">
+                                    <div
+                                        class="absolute inset-0 bg-black/30 group-hover/img:bg-black/50 transition-all">
+                                    </div>
+                                    <div class="absolute bottom-2 left-2 text-white">
+                                        <p class="text-[10px] font-black leading-tight uppercase">Şin təmiri<br>dəstləri
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="group/img relative h-32 overflow-hidden rounded-sm cursor-pointer border border-gray-100">
+                                    <img src="img/7.jpg" class="h-full w-full object-cover">
+                                    <div
+                                        class="absolute inset-0 bg-black/30 group-hover/img:bg-black/50 transition-all">
+                                    </div>
+                                    <div class="absolute bottom-2 left-2 text-white">
+                                        <p class="text-[10px] font-black leading-tight uppercase">Alətləri<br>dəstləri
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="h-6 w-[1px] bg-gray-200"></div>
+
+                <a href="#" class="flex items-center px-4 py-2 hover:text-red-600 text-black">
+                    <span class="text-red-600">S</span><span>ekretki</span>
+                </a>
+
+                <div class="h-6 w-[1px] bg-gray-200"></div>
+
+                <a href="#" class="flex items-center px-4 py-2 hover:text-red-600 text-black">
+                    <span class="text-red-600">Ə</span><span>ləm boltları</span>
+                </a>
+
+                <div class="h-6 w-[1px] bg-gray-200"></div>
+
+                <a href="#" class="flex items-center px-4 py-2 hover:text-red-600 text-black">
+                    <span class="text-red-600">P</span><span>romosyon və satış</span>
+                </a>
+
+                <div class="h-6 w-[1px] bg-gray-200"></div>
+
+                <a href="#" class="flex items-center px-4 py-2 hover:text-red-600 text-black">
+                    <span class="text-red-600">Ş</span><span>in kalkulyatoru</span>
+                </a>
+            </nav>
+
+            <div class="flex items-center border border-gray-300 rounded-sm overflow-hidden h-7 ">
+                <input type="text" placeholder="Saytda axtarış"
+                    class="px-2  text-[13px] w-56 focus:outline-none italic text-gray-400">
+                <button
+                    class="bg-[#5a5d61] hover:bg-gray-700 text-white px-4 h-full flex items-center justify-center transition-colors">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+
+        </div>
+
+
+        <nav class="bg-[#fbfbfb] py-3 px-5 w-full border-b">
+            <ol class="list-reset flex items-center text-[13px] text-[#6b7280] font-sans">
+
+                <li>
+                    <a href="#" class=" hover:underline hover:underline-offset-1 decoration-1 transition-all">Ana
+                        səhifə</a>
+                </li>
+
+                <li><span class="mx-2 text-[10px] text-gray-400">▸</span></li>
+
+                <li>
+                    <a href="#" class=" hover:underline hover:underline-offset-1 decoration-1 transition-all">Şinlər</a>
+                </li>
+
+                <li><span class="mx-2 text-[10px] text-gray-400">▸</span></li>
+
+                <li>
+                    <a href="#"
+                        class=" hover:underline hover:underline-offset-1 decoration-1 transition-all">İstehsalçıya görə
+                        seçim</a>
+                </li>
+
+                <li><span class="mx-2 text-[10px] text-gray-400">▸</span></li>
+
+                <li>
+                    <a href="#"
+                        class=" hover:underline hover:underline-offset-1 decoration-1 transition-all">Pirelli</a>
+                </li>
+
+                <li><span class="mx-2 text-[10px] text-gray-400">▸</span></li>
+
+                <li class="text-gray-500 font-medium italic">Scorpion Ice Zero 2</li>
+
+            </ol>
+        </nav>
+
+        <div class="flex items-center space-x-2 py-4 px-5 bg-white font-sans text-[14px]">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="inline-block mr-1">
+                <path d="M9 10L4 15L9 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M20 4V11C20 13.2091 18.2091 15 16 15H4" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+            <div class="text-gray-800">
+                <span>İstehsalçıya qayıt:</span>
+
+                <a href="#"
+                    class="text-red-600 underline underline-offset-4 decoration-1 transition-all hover:no-underline ml-1">
+                    Pirelli şinləri
+                </a>
+            </div>
+        </div>
+
+        <!--scroll div-->
+
+        <div class="max-w-7xl mx-auto p-6 bg-white font-sans text-[#333] border-t">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
+
+
+
+
+
+
+                <div class="md:col-span-9 min-w-0">
+                    <div class="mb-6">
+                        <h1 class="text-3xl font-medium text-gray-800 mb-2">Pirelli Scorpion Ice Zero 2 şinləri</h1>
+                        <div class="flex items-center justify-between pb-4">
+                            <div class="flex items-center space-x-4">
+                                <div class="flex space-x-2 text-xl">
+                                    <span title="SUV"><img src="img/vnedorozhnik-light.svg" class="w-6 h-6"
+                                            alt=""></span>
+                                    <span title="Təhlükəsizlik" class="text-red-500"><img src="img/studded.svg"
+                                            class="w-6 h-6" alt=""></span>
+                                    <span title="Qış" class="text-blue-400"><img src="img/snowflake.svg" class="w-6 h-6"
+                                            alt=""></span>
+                                </div>
+                                <p class="text-gray-500 text-sm italic">Qış şinləri Pirelli Scorpion Ice Zero 2</p>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <div class="text-red-600 text-lg">★★★★★</div>
+                                <span class="text-[10px] text-gray-400 uppercase tracking-tighter">reytinq</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <div class="min-w-0">
+
+
+                            <!-- <div class="swiper mainSwiper border border-gray-100 rounded-lg mb-4 bg-white">
+                                <div class="swiper-wrapper">
+                                      <div class="swiper-slide p-4"><img src="img/detail1.jpg"
+                                            class="w-full h-72 object-contain" /></div>
+                                             <div class="swiper-slide p-4"><img src="img/detail11.jpg"
+                                            class="w-full h-72 object-contain" /></div>
+                                             <div class="swiper-slide p-4"><img src="img/detail2.jpg"
+                                            class="w-full h-72 object-contain" /></div>
+                                             <div class="swiper-slide p-4"><img src="img/detail3.jpg"
+                                            class="w-full h-72 object-contain" /></div>
+                                             <div class="swiper-slide p-4"><img src="img/detail4.jpg"
+                                            class="w-full h-72 object-contain" /></div>
+                                             <div class="swiper-slide p-4"><img src="img/detail5.jpg"
+                                            class="w-full h-72 object-contain" /></div>
+
+                                </div>
+                            </div> -->
+
+                            <!-- <div class="relative px-8">
+                                <div thumbsSlider="" class="swiper thumbSwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide cursor-pointer rounded p-1">
+                                            <img src="img/detail1.jpg" class="w-full h-16 object-contain" />
+                                        </div>
+                                         <div class="swiper-slide cursor-pointer rounded p-1">
+                                            <img src="img/detail11.jpg" class="w-full h-16 object-contain" />
+                                        </div>
+                                         <div class="swiper-slide cursor-pointer rounded p-1">
+                                            <img src="img/detail-car.jpg" class="w-full h-16 object-contain" />
+                                        </div>
+                                        <div class="swiper-slide cursor-pointer rounded p-1">
+                                            <img src="img/teker1.jpg" class="w-full h-16 object-contain" />
+                                        </div>
+                                        <div class="swiper-slide cursor-pointer rounded p-1">
+                                            <img src="img/teker2.jpg" class="w-full h-16 object-contain" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev !text-blue-500 !w-6 !h-6 after:!text-[14px] !left-0">
+                                </div>
+                                <div class="swiper-button-next !text-blue-500 !w-6 !h-6 after:!text-[14px] !right-0">
+                                </div>
+                            </div> -->
+
+                            <style>
+                                /* Aktiv olan kiçik şəklin kənarını göy rəng edir */
+                                .swiper-button-next,
+                                .swiper-button-prev {
+                                    z-index: 999 !important;
+                                    /* Oxu ən üstə çıxarır */
+                                    cursor: pointer !important;
+                                    /* Oxun üstünə gələndə əl işarəsi çıxmalıdır */
+                                }
+
+                                /* Əgər border görünmürsə, bunu mütləq yoxla */
+                                .thumbsSwiper .swiper-slide {
+                                    border: 0px;
+                                    /* Qalın mavi border */
+                                }
+
+                                .thumbsSwiper .swiper-slide-thumb-active {
+                                    border: 3px solid #007aff;
+                                }
+                            </style>
+                            <div class="product_full_contents_wrapper relative overflow-hidden">
+
+
+                                <div class="swiper mainSwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide p-4"><img src="img/detail1.jpg"
+                                                class="w-full h-72 object-contain" /></div>
+                                        <div class="swiper-slide p-4"><img src="img/detail11.jpg"
+                                                class="w-full h-72 object-contain" /></div>
+                                        <div class="swiper-slide p-4"><img src="img/detail2.jpg"
+                                                class="w-full h-72 object-contain" /></div>
+                                        <div class="swiper-slide p-4"><img src="img/detail3.jpg"
+                                                class="w-full h-72 object-contain" /></div>
+                                        <div class="swiper-slide p-4"><img src="img/detail4.jpg"
+                                                class="w-full h-72 object-contain" /></div>
+                                        <div class="swiper-slide p-4"><img src="img/detail5.jpg"
+                                                class="w-full h-72 object-contain" /></div>
+                                    </div>
+                                </div>
+                                <div thumbsSlider="" class="swiper thumbsSwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide cursor-pointer rounded p-1">
+                                            <img src="img/detail1.jpg" class="w-full h-16 object-contain" />
+                                        </div>
+                                        <div class="swiper-slide cursor-pointer rounded p-1">
+                                            <img src="img/detail11.jpg" class="w-full h-16 object-contain" />
+                                        </div>
+                                        <div class="swiper-slide cursor-pointer rounded p-1">
+                                            <img src="img/detail-car.jpg" class="w-full h-16 object-contain" />
+                                        </div>
+                                        <div class="swiper-slide cursor-pointer rounded p-1">
+                                            <img src="img/teker1.jpg" class="w-full h-16 object-contain" />
+                                        </div>
+                                        <div class="swiper-slide cursor-pointer rounded p-1">
+                                            <img src="img/teker2.jpg" class="w-full h-16 object-contain" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="product-swiper-button-next absolute bottom-[45px] translate-y-[50%] w-[30px] h-[30px] right-0 z-[99]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" x="0" y="0"
+                                        viewBox="0 0 128 128" style="enable-background:new 0 0 512 512"
+                                        xml:space="preserve" class="">
+                                        <g>
+                                            <path
+                                                d="M44 108a3.988 3.988 0 0 1-2.828-1.172 3.997 3.997 0 0 1 0-5.656L78.344 64 41.172 26.828c-1.563-1.563-1.563-4.094 0-5.656s4.094-1.563 5.656 0l40 40a3.997 3.997 0 0 1 0 5.656l-40 40A3.988 3.988 0 0 1 44 108z"
+                                                fill="blue" opacity="1" data-original="blue" class=""></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div
+                                    class="product-swiper-button-prev rotate-[180deg] absolute bottom-[45px] translate-y-[50%] w-[30px] h-[30px] left-0 z-[99]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" x="0" y="0"
+                                        viewBox="0 0 128 128" style="enable-background:new 0 0 512 512"
+                                        xml:space="preserve" class="">
+                                        <g>
+                                            <path
+                                                d="M44 108a3.988 3.988 0 0 1-2.828-1.172 3.997 3.997 0 0 1 0-5.656L78.344 64 41.172 26.828c-1.563-1.563-1.563-4.094 0-5.656s4.094-1.563 5.656 0l40 40a3.997 3.997 0 0 1 0 5.656l-40 40A3.988 3.988 0 0 1 44 108z"
+                                                fill="blue" opacity="1" data-original="blue" class=""></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div>
+                            <ul class="text-[13px] space-y-2 text-gray-700 list-inside list-none mb-6 leading-tight">
+                                <li>• <span class="font-bold">Pirelli Scorpion Ice Zero 2</span> — yolsuzluq
+                                    avtomobilləri üçün qış üçün mıxlı şinlər.</li>
+                                <li>• 2019/2020 qış mövsümünün yeniliyi.</li>
+                                <li>• Dizayn minik avtomobilləri modelində olduğu kimidir, lakin daxili konstruksiya
+                                    yüksək yüklərə uyğunlaşdırılıb.</li>
+                                <li>• Ziqzaqşəkilli kənarlar çoxsaylı tutma nöqtələri yaradır və parametrləri
+                                    yaxşılaşdırır.</li>
+                                <li>• Yolsuzluq avtomobilləri (SUV) üçün.</li>
+                                <li>• Protektor tipi: istiqamətlənmiş.</li>
+                                <li>• Zəmanət — 1 il.</li>
+                            </ul>
+
+                            <div class="mt-10   rounded-lg">
+                                <div class="flex justify-between items-start mr-[100px]">
+                                    <div>
+                                        <p class="text-xs text-gray-400 italic">Çatdırılma: <span
+                                                class="underline text-gray-600">Bakı — pulsuz!</span></p>
+                                        <h2
+                                            class="text-5xl font-bold text-gray-700 mt-2 italic tracking-tighter uppercase">
+                                            SABAH</h2>
+                                    </div>
+                                    <div class="">
+                                        <p class="text-green-600 text-xs font-bold flex items-center ">
+                                            <span class="mr-1">●</span> Mövcuddur
+                                        </p>
+                                        <p class="text-gray-500 text-xs mt-1">Ölçü sayı: 34</p>
+                                        <p class="text-gray-500 text-xs mt-1">185 AZN-dən</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex space-x-2 mt-4">
+                                    <div class=" text-[10px] px-2 py-1 rounded font-bold uppercase flex items-center">
+                                        <img src="img/delivery.svg" alt="" class="w-[30px] h-[30px]"> PULSUZ ÇATDIRILMA
+                                    </div>
+                                    <div class="text-[10px] px-2 py-1 rounded font-bold uppercase flex items-center">
+                                        <img src="img/credit.svg" alt="" class="w-[30px] h-[30px]"> KREDİT 20 AZN-DAN
+                                    </div>
+                                    <div class=" text-[10px] px-2 py-1 rounded font-bold uppercase flex items-center">
+                                        <img src="img/pickup.svg" alt="" class="w-[30px] h-[30px]"> ÖZÜN GÖTÜR 1-2 GÜN
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="md:col-span-3 border-l border-gray-100 pl-4">
+                    <div class="mb-6">
+                        <div class="mb-4">
+                            <img src="img/logo-pirelli.jpg" alt="Pirelli" class="h-8">
+                        </div>
+                        <div class="mt-4 space-y-2 text-[11px]">
+                            <a href="#" class="flex items-center text-blue-600 underline">
+                                <img src="img/snowflake.svg" class="w-3 h-3 mr-1"> Pirelli qış şinləri
+                            </a>
+                            <a href="#" class="flex items-center text-orange-600 underline">
+                                <img src="img/sunny.svg" class="w-3 h-3 mr-1"> Pirelli yay şinləri
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <label class="text-[10px] font-bold text-gray-500 uppercase">Pirelli şin modeli:</label>
+                        <select
+                            class="w-full border rounded mt-2 p-2 text-sm bg-gray-50 outline-none focus:ring-1 focus:ring-blue-400">
+                            <option>Scorpion Ice Zero 2</option>
+                            <option>P Zero</option>
+                            <option>Cinturato P7</option>
+                        </select>
+                        <div class="flex justify-end">
+                            <button
+                                class="w-[140px] bg-[#5c636a] text-white py-2 rounded mt-3 text-xs font-bold hover:bg-gray-700 transition uppercase">
+                                GÖSTƏR
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 space-y-3">
+                        <label class="flex items-center text-[11px] text-gray-600 cursor-pointer italic">
+                            <input type="checkbox" class="mr-2 accent-gray-600" checked>
+                            İstehsaldan çıxanları göstərmə
+                        </label>
+                        <label class="flex items-center text-[11px] text-gray-600 cursor-pointer italic">
+                            <input type="checkbox" class="mr-2 accent-gray-600" checked>
+                            Stokda olanları göstər
+                        </label>
+                    </div>
+
+                    <div class="mt-10 border-t pt-4">
+                        <p class="text-[11px] font-bold text-gray-700 mb-3 uppercase">Hissə-hissə ödəniş:</p>
+                        <div class="flex gap-2 cursor-pointer">
+                            <img src="img/halva-footer.png">
+                            <img src="img/polza-footer.png">
+                            <img src="img/svoboda-footer.png">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="flex items-center bg-gray-200 border-b border-gray-300 ml-20 w-[760px] h-[50px] mt-10">
+            <button
+                class="bg-white w-[120px] px-4 py-4 text-[12px] font-bold text-gray-700 border-r border-gray-300 uppercase tracking-wider transition-colors duration-200">
+                Ölçülər <span class="text-gray-400 font-normal ml-1">34</span>
+            </button>
+
+            <button
+                class="hover:bg-white w-[120px] px-6 py-4 text-[12px] font-bold text-gray-700 border-r border-gray-300 uppercase tracking-wider transition-colors duration-200">
+                Təsvir
+            </button>
+
+            <button
+                class="hover:bg-white w-[160px] px-6 py-4 text-[12px] font-bold text-gray-700 border-r border-gray-300 uppercase tracking-wider transition-colors duration-200">
+                Xüsusiyyətlər
+            </button>
+
+            <button
+                class="hover:bg-white w-[120px] px-6 py-4 text-[12px] font-bold text-gray-700 border-r border-gray-300 uppercase tracking-wider transition-colors duration-200">
+                Rəylər <span class="text-gray-400 font-normal ml-1">7</span>
+            </button>
+
+            <button
+                class="hover:bg-white w-[120px] px-6 py-4 text-[12px] font-bold text-gray-700 border-r border-gray-300 uppercase tracking-wider transition-colors duration-200">
+                Ödəniş
+            </button>
+
+            <button
+                class="hover:bg-white w-[120px] px-6 py-4 text-[12px] font-bold text-gray-700 uppercase tracking-wider transition-colors duration-200">
+                Çatdırılma
+            </button>
+        </div>
+
+
+        <!--cdevel-->
+
+        <div class="max-w-8xl mb-10 mx-auto bg-white px-4 md:px-12 py-2  mt-10  ">
+
+            <h1 class="text-3xl font-bold text-gray-700 mb-6">Ölçülər və qiymətlər <span
+                    class="text-gray-400 font-normal">34</span></h1>
+
+            <p class="text-sm text-gray-600 mb-8 leading-relaxed italic">
+                Siyahıdan Pirelli Scorpion Ice Zero 2 qış şinlərinin lazımi ölçüsünü seçin. Hansı ölçünün avtomobilinizə
+                uyğun gəldiyi ilə bağlı şübhəniz varsa...
+            </p>
+
+          
+<div class="flex items-center border border-gray-200 bg-gray-50 overflow-hidden w-max">
+    
+    <a href="/mehsulun-sehifesi.html" 
+       class="px-[123px] py-3 text-[12px] font-bold text-gray-600 border-r border-gray-200 hover:bg-white hover:text-gray-800 transition-all">
+        Göstər:
+    </a>
+
+    <a href="/r-17.html" 
+       class="px-[70px] py-3 text-[12px] font-bold bg-white text-gray-800 uppercase tracking-wider border-r border-gray-200 underline decoration-2   transition-all">
+       R17
+    </a>
+
+    <a href="/r-18.html" 
+       class="px-[70px] py-3 text-[12px] font-bold text-gray-600 border-r border-gray-200 hover:bg-white hover:text-gray-800 transition-all">
+       R18
+    </a>
+
+    <a href="/r-19.htm" 
+       class="px-[70px] py-3 text-[12px] font-bold text-gray-600 border-r border-gray-200 hover:bg-white hover:text-gray-800 transition-all">
+       R19
+    </a>
+
+    <a href="/r-20.html" 
+       class="px-[70px] py-3 text-[12px] font-bold text-gray-600 border-r border-gray-200 hover:bg-white hover:text-gray-800 transition-all">
+       R20
+    </a>
+
+    <a href="/r-21.html" 
+       class="px-[70px] py-3 text-[12px] font-bold text-gray-600 border-r border-gray-200 hover:bg-white hover:text-gray-800 transition-all">
+       R21
+    </a>
+
+    <a href="/r-22.html" 
+       class="px-[70px] py-3 text-[12px] font-bold text-gray-600 border-r border-gray-200 hover:bg-white hover:text-gray-800 transition-all">
+       R22
+    </a>
+</div>
+            <div class="border-x border-b border-gray-200">
+
+                <div
+                    class="grid grid-cols-12 gap-2 p-4 text-[11px] font-bold text-gray-500 bg-white items-center border-b border-gray-100">
+                    <div class="col-span-1">Diametr</div>
+                    <div class="col-span-1">Kod</div>
+                    <div class="col-span-3">Tiporazmer</div>
+                    <div class="col-span-2">İndekslər</div>
+                    <div class="col-span-1">Anbarda</div>
+                    <div class="col-span-1 text-right">Qiymət</div>
+                    <div class="col-span-1 text-center">Kalkulyator</div>
+                    <div class="col-span-2 text-right pr-4">Səbətə</div>
+                </div>
+
+                <div class="bg-[#f2f2f2] p-3 flex items-center px-4 border-b border-gray-200">
+                    <span class="text-red-600 font-bold text-lg mr-2 italic tracking-tighter">R17</span>
+                    <span class="text-gray-400 text-[10px] uppercase font-bold">— 3 ÖLÇÜ</span>
+                </div>
+
+                <div class="grid grid-cols-12 gap-2 px-2 py-1 items-center border-b  border-gray-100 hover:bg-gray-50 transition-colors"
+                    data-price="219">
+                    <div class="col-span-1 text-gray-400 text-xs "></div>
+                    <div
+                        class="col-span-1 text-gray-500 text-xs font-medium h-12 border-l  flex items-center justify-center">
+                        138752
+                    </div>
+                    <div class="col-span-3">
+                        <div class="text-[10px] text-gray-400">Pirelli Scorpion Ice Zero 2</div>
+                        <div class="text-[13px] font-bold text-blue-600 hover:text-red-700 cursor-pointer">215/60 R17
+                            100T</div>
+                    </div>
+                    <div class="col-span-2 text-[12px] text-gray-600">
+                        <span class="border-b border-dotted border-gray-400">100 T</span> <span
+                            class="text-gray-400 text-[11px]">(190 km/saat)</span>
+                    </div>
+                    <div class="col-span-1 flex items-center text-[11px] text-gray-600">
+                        <span class="w-2 h-2 bg-green-500 rounded-full mr-1"></span> mövcuddur
+                    </div>
+                    <div class="col-span-1 text-right font-bold text-gray-800 whitespace-nowrap">219 AZN</div>
+
+                    <div class="col-span-1 flex items-center justify-center">
+                        <div class="flex border border-gray-200 rounded-sm bg-white overflow-hidden">
+                            <button class="px-2 py-0.5 text-red-600 hover:bg-gray-100 font-bold">-</button>
+                            <input type="text" value="1"
+                                class="w-7 text-center text-xs font-bold outline-none border-x border-gray-100">
+                            <button class="px-2 py-0.5 text-red-600 hover:bg-gray-100 font-bold">+</button>
+                        </div>
+                    </div>
+
+                    <div class="col-span-2 flex items-center justify-end space-x-3 whitespace-nowrap">
+                        <span class="font-bold text-gray-800 text-[13px]">= 219 AZN</span>
+                        <button
+                            class="bg-[#e31e24] text-white px-3 py-2 rounded-sm text-[10px] font-bold uppercase hover:bg-red-700 min-w-[95px]">Səbətə
+                            at</button>
+                    </div>
+
+                </div>
+                <div class="grid grid-cols-12 gap-2 px-2 py-1 items-center border-b border-gray-100 hover:bg-gray-50 transition-colors"
+                    data-price="219">
+                    <div class="col-span-1 text-gray-400 text-xs"></div>
+                    <div
+                        class="col-span-1 text-gray-500 text-xs font-medium h-12 border-l  flex items-center justify-center">
+                        138752
+                    </div>
+                    <div class="col-span-3">
+                        <div class="text-[10px] text-gray-400">Pirelli Scorpion Ice Zero 2</div>
+                        <div class="text-[13px] font-bold text-blue-600 hover:text-red-700 cursor-pointer">215/60 R17
+                            100T</div>
+                    </div>
+                    <div class="col-span-2 text-[12px] text-gray-600">
+                        <span class="border-b border-dotted border-gray-400">100 T</span> <span
+                            class="text-gray-400 text-[11px]">(190 km/saat)</span>
+                    </div>
+                    <div class="col-span-1 flex items-center text-[11px] text-gray-600">
+                        <span class="w-2 h-2 bg-green-500 rounded-full mr-1"></span> mövcuddur
+                    </div>
+                    <div class="col-span-1 text-right font-bold text-gray-800 whitespace-nowrap">219 AZN</div>
+
+                    <div class="col-span-1 flex items-center justify-center">
+                        <div class="flex border border-gray-200 rounded-sm bg-white overflow-hidden">
+                            <button class="px-2 py-0.5 text-red-600 hover:bg-gray-100 font-bold">-</button>
+                            <input type="text" value="1"
+                                class="w-7 text-center text-xs font-bold outline-none border-x border-gray-100">
+                            <button class="px-2 py-0.5 text-red-600 hover:bg-gray-100 font-bold">+</button>
+                        </div>
+                    </div>
+
+                    <div class="col-span-2 flex items-center justify-end space-x-3 whitespace-nowrap">
+                        <span class="font-bold text-gray-800 text-[13px]">= 219 AZN</span>
+                        <button
+                            class="bg-[#e31e24] text-white px-3 py-2 rounded-sm text-[10px] font-bold uppercase hover:bg-red-700 min-w-[95px]">Səbətə
+                            at</button>
+                    </div>
+
+                </div>
+                <div class="grid grid-cols-12 gap-2 px-2 py-1 items-center border-b border-gray-100 hover:bg-gray-50 transition-colors"
+                    data-price="219">
+                    <div class="col-span-1 text-gray-400 text-xs"></div>
+                    <div
+                        class="col-span-1 text-gray-500 text-xs font-medium h-12 border-l  flex items-center justify-center">
+                        138752
+                    </div>
+                    <div class="col-span-3">
+                        <div class="text-[10px] text-gray-400">Pirelli Scorpion Ice Zero 2</div>
+                        <div class="text-[13px] font-bold text-blue-600 hover:text-red-700 cursor-pointer">215/60 R17
+                            100T</div>
+                    </div>
+                    <div class="col-span-2 text-[12px] text-gray-600">
+                        <span class="border-b border-dotted border-gray-400">100 T</span> <span
+                            class="text-gray-400 text-[11px]">(190 km/saat)</span>
+                    </div>
+                    <div class="col-span-1 flex items-center text-[11px] text-gray-600">
+                        <span class="w-2 h-2 bg-green-500 rounded-full mr-1"></span> mövcuddur
+                    </div>
+                    <div class="col-span-1 text-right font-bold text-gray-800 whitespace-nowrap">219 AZN</div>
+
+                    <div class="col-span-1 flex items-center justify-center">
+                        <div class="flex border border-gray-200 rounded-sm bg-white overflow-hidden">
+                            <button class="px-2 py-0.5 text-red-600 hover:bg-gray-100 font-bold">-</button>
+                            <input type="text" value="1"
+                                class="w-7 text-center text-xs font-bold outline-none border-x border-gray-100">
+                            <button class="px-2 py-0.5 text-red-600 hover:bg-gray-100 font-bold">+</button>
+                        </div>
+                    </div>
+
+                    <div class="col-span-2 flex items-center justify-end space-x-3 whitespace-nowrap">
+                        <span class="font-bold text-gray-800 text-[13px]">= 219 AZN</span>
+                        <button
+                            class="bg-[#e31e24] text-white px-3 py-2 rounded-sm text-[10px] font-bold uppercase hover:bg-red-700 min-w-[95px]">Səbətə
+                            at</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="border-b-[10px] border-[#f1f1f1]"></div>
+        </div>
+
+
+        
+
+
+
+    <div class="product-slider-wrapper mx-auto py-5 px-2 bg-white font-sans max-w-8xl">
+  
+  <h2 class="text-[#0089cf] font-bold text-center mb-8 uppercase text-xl tracking-[0.1em]">
+    Qış üçün satış hitləri
+  </h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    
+    <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-[280px] bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+      <div class="flex justify-between items-start mb-1 relative z-10">
+        <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">Cordiant Snow Cross 2</h3>
+        <span class="text-blue-400 text-xl">❄️</span>
+      </div>
+      <p class="text-gray-400 text-[12px] relative z-10">Mövcud diametrlər: <span class="text-gray-700 font-medium">13-18"</span></p>
+      
+      <div class="mt-auto relative z-10">
+        <span class="text-[11px] text-gray-500">-dan</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">AZN</span>
+        </div>
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]"><span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span></div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">stokda var</span>
+        </div>
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-pirelli.jpg" alt="Logo" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+      <img src="img/teker5.jpg" alt="Tire" class="absolute -right-4 bottom-0 w-32 h-44 object-right object-contain pointer-events-none z-0 opacity-90">
+    </div>
+
+    <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-[280px] bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+      <div class="flex justify-between items-start mb-1 relative z-10">
+        <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">Cordiant Snow Cross 2</h3>
+        <span class="text-blue-400 text-xl">❄️</span>
+      </div>
+      <p class="text-gray-400 text-[12px] relative z-10">Mövcud diametrlər: <span class="text-gray-700 font-medium">13-18"</span></p>
+      
+      <div class="mt-auto relative z-10">
+        <span class="text-[11px] text-gray-500">-dan</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">AZN</span>
+        </div>
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]"><span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span></div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">stokda var</span>
+        </div>
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-pirelli.jpg" alt="Logo" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+      <img src="img/teker1.jpg" alt="Tire" class="absolute -right-4 bottom-0 w-32 h-44 object-right object-contain pointer-events-none z-0 opacity-90">
+    </div>
+
+    <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-[280px] bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+      <div class="flex justify-between items-start mb-1 relative z-10">
+        <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">Cordiant Snow Cross 2</h3>
+        <span class="text-blue-400 text-xl">❄️</span>
+      </div>
+      <p class="text-gray-400 text-[12px] relative z-10">Mövcud diametrlər: <span class="text-gray-700 font-medium">13-18"</span></p>
+      
+      <div class="mt-auto relative z-10">
+        <span class="text-[11px] text-gray-500">-dan</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">AZN</span>
+        </div>
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]"><span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span></div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">stokda var</span>
+        </div>
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-pirelli.jpg" alt="Logo" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+      <img src="img/teker3.jpg" alt="Tire" class="absolute -right-4 bottom-0 w-32 h-44 object-right object-contain pointer-events-none z-0 opacity-90">
+    </div>
+
+    <div class="group relative border border-gray-100 p-6 rounded-sm flex flex-col h-[280px] bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+      <div class="flex justify-between items-start mb-1 relative z-10">
+        <h3 class="font-bold text-gray-800 text-[16px] leading-tight pr-10">Cordiant Snow Cross 2</h3>
+        <span class="text-blue-400 text-xl">❄️</span>
+      </div>
+      <p class="text-gray-400 text-[12px] relative z-10">Mövcud diametrlər: <span class="text-gray-700 font-medium">13-18"</span></p>
+      
+      <div class="mt-auto relative z-10">
+        <span class="text-[11px] text-gray-500">-dan</span>
+        <div class="flex items-baseline gap-1">
+          <span class="text-3xl font-bold text-gray-800 tracking-tighter">5293</span>
+          <span class="text-[14px] text-gray-500">AZN</span>
+        </div>
+        <div class="flex items-center mt-2 space-x-1">
+          <div class="flex text-red-500 text-[10px]"><span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span></div>
+          <span class="text-gray-400 text-[11px]">(51)</span>
+        </div>
+        <div class="flex items-center mt-1">
+          <span class="w-2.5 h-2.5 bg-[#7cfc00] rounded-full border border-white shadow-sm mr-2"></span>
+          <span class="text-[11px] text-gray-400">stokda var</span>
+        </div>
+        <div class="mt-4 w-24 h-6">
+          <img src="img/logo-pirelli.jpg" alt="Logo" class="max-w-full max-h-full object-contain object-left">
+        </div>
+      </div>
+      <img src="img/teker4.jpg" alt="Tire" class="absolute -right-4 bottom-0 w-32 h-44 object-right object-contain pointer-events-none z-0 opacity-90">
+    </div>
+
+  </div>
+</div>
+
+
+<div class="w-full bg-[#f9f9f9] border-t border-b border-gray-200 py-2 mt-4 mb-10">
+    <div class="max-w-7xl mx-auto px-4 flex justify-center">
+        
+        <a href="#" class="group flex items-center text-gray-600 transition-colors duration-300 ">
+            
+            <span class="text-[15px] font-medium border-b border-dotted border-gray-400 pb-0.5 transition-all duration-300 group-hover:border-transparent">
+                Посмотреть все модели Pirelli
+            </span>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2 transform transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="9 5l7 7-7 7" />
+            </svg>
+            
+        </a>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+ <div class="w-[1380px] bg-[#f1f1f1] flex mx-auto justify-between item-center mr-[10px] py-10 font-sans border-t border-gray-100">
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+    
+    <div class="md:col-span-4 ">
+      <h3 class="text-[#333] text-xl font-normal mb-6">
+        Mağazamızdan şin və diskləri <br> necə almaq olar?
+      </h3>
+      
+      <p class="text-gray-600 text-[13px] mb-4">Sifarişi çoxkanallı tel. vasitəsilə rəsmiləşdirə bilərsiniz:</p>
+      
+      <div class="flex items-baseline gap-2 mb-6">
+        <span class="text-2xl font-bold text-black">+994 12</span>
+        <span class="text-3xl font-bold text-red-600">995-80-40</span>
+        <div class="text-[11px] text-gray-500 leading-tight">
+          operatorlarımız tərəfindən <br> 09:00-dan 21:00-dək
+        </div>
+      </div>
+      
+      <p class="text-gray-600 text-[13px] leading-relaxed">
+        Hər gün (istirahət günləri olmadan) yerli vaxtla xidmətinizdəyik. <br>
+        Həmçinin saytımızda onlayn sifariş verərək 24/7 şinləri əldə edə bilərsiniz.
+      </p>
+    </div>
+
+    <div class="md:col-span-5 flex flex-col gap-6">
+      <p class="text-[12px] text-gray-500 italic">
+        Şin və disklərin satışı nağd və nağdsız qaydada həyata keçirilir. <br>
+        Ödənişi həmçinin VISA, VISA-Electron, MasterCard, Maestro kartları ilə edə bilərsiniz.
+      </p>
+      
+      <div class="flex items-center gap-4">
+        <div class="shrink-0">
+          <img src="img/delivery-home.png" alt="delivery">
+        </div>
+        
+        <div class="text-[#1a365d] font-bold text-[15px] uppercase leading-tight">
+          Dəst məhsul aldıqda Bakı daxili <br> çatdırılma — <span class="text-blue-600">Pulsuzdur!</span>
+        </div>
+      </div>
+      
+      <p class="text-[12px] text-gray-600">
+        Sizi maraqlandıran sualları "mütəxəssisə sual ver" bölməsində ünvanlaya və ya ödənişsiz nömrəmizdən məsləhət ala bilərsiniz: 088 500-80-66.
+      </p>
+    </div>
+
+    <div class="md:col-span-3 flex flex-col gap-8">
+      <div class="flex items-start gap-3 grayscale opacity-70">
+        <img src="img/visa.svg" alt="Visa" class="h-6">
+      </div>
+      
+      <div>
+        <p class="text-[12px] text-gray-500 mb-2">sosial şəbəkələrdə biz —</p>
+        <div class="flex justify-start gap-2">
+          <a href="#" class="bg-[#517397] p-1 rounded-sm"><img src="img/vk.svg" class="w-6 h-6"></a>
+          <a href="#" class="bg-[#e52d27] p-1 rounded-sm"><img src="img/youtube.svg" class="w-6 h-6"></a>
+        </div>
+      </div>
+      
+      <div>
+        <p class="text-[12px] text-gray-500 mb-1">Mağazanın reytinqi:</p>
+        <div class="flex items-start justify-start gap-2">
+          <div class="flex text-red-600 text-lg">★★★★★</div>
+          <span class="font-bold text-gray-800 text-lg">4.9</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+<footer class="container w-[1370px] item-center m-auto mt-10 mb-3 bg-white ">
+  <div class="max-w-7xl mx-auto ">
+    
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-x-4 mb-16">
+      
+      <div class="md:col-span-2 mt-10">
+        <ul class="space-y-2 uppercase text-[13px] font-extrabold text-black border-l-[3px] border-red-600 pl-4 tracking-tight">
+          <li><a href="#" class="hover:text-red-600 transition-colors">ŞİNLƏR</a></li>
+          <li><a href="#" class="hover:text-red-600 transition-colors">DİSKLƏR</a></li>
+          <li><a href="#" class="hover:text-red-600 transition-colors">GİZLİ BOLTLAR</a></li>
+          <li><a href="#" class="hover:text-red-600 transition-colors">AKSESUARLAR</a></li>
+          <li><a href="#" class="hover:text-red-600 text-red-600 transition-colors">ENDRİMLƏR</a></li>
+          <li><a href="#" class="hover:text-red-600 transition-colors">ŞİN KALKULYATORU</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-2 text-[13px] mt-10">
+        <ul class="space-y-1.5 text-gray-700">
+          <li><a href="#" class="hover:text-red-600 hover:underline">Kömək</a></li>
+          <li><a href="#" class="hover:text-red-600 hover:underline">Çatdırılma</a></li>
+          <li><a href="#" class="hover:text-red-600 hover:underline">Ödəniş</a></li>
+          <li><a href="#" class="hover:underline">Seçilmişlər</a></li>
+          <li><a href="#" class="hover:underline">Müqayisə</a></li>
+          <li class="pt-3"><a href="#" class="hover:underline">Daxil ol</a></li>
+          <li><a href="#" class="hover:underline">Əlaqə</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-2 text-[13px] mt-10">
+        <ul class="space-y-1.5 text-gray-700">
+          <li><a href="#" class="hover:text-red-600 hover:underline">Dəyişdirmə və qaytarma</a></li>
+          <li><a href="#" class="hover:text-red-600 hover:underline">Şinlərə zəmanət</a></li>
+          <li><a href="#" class="hover:text-red-600 hover:underline">Disklərə zəmanət</a></li>
+          <li><a href="#" class="hover:text-red-600 hover:underline">Sual-Cavab</a></li>
+          <li><a href="#" class="hover:text-red-600 hover:underline">Xəbərlər</a></li>
+          <li class="pt-3"><a href="#" class="hover:underline">Geri əlaqə</a></li>
+          <li><a href="#" class="hover:underline">Saytın xəritəsi</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-2 mt-10">
+        <p class="text-[12px] text-gray-400 mb-3">Paylaş:</p>
+        <div class="flex gap-2.5 mb-6">
+          <a href="#" class="text-[#4c75a3] text-xl hover:scale-110 transition-transform"><i class="fab fa-vk"></i></a>
+          <a href="#" class="text-[#0088cc] text-xl hover:scale-110 transition-transform"><i class="fab fa-telegram"></i></a>
+          <a href="#" class="text-[#7360f2] text-xl hover:scale-110 transition-transform"><i class="fab fa-viber"></i></a>
+          <a href="#" class="text-[#25d366] text-xl hover:scale-110 transition-transform"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="space-y-4 mt-10">
+          <a href="mailto:info@pokrishka.ru" class="flex items-center gap-2 text-[13px] text-gray-800 font-medium group">
+            <i class="fa-solid fa-envelope text-red-600 group-hover:scale-110 transition-transform"></i> 
+            <span class="border-b border-transparent group-hover:border-gray-800 transition-all">info@pokrishka.ru</span>
+          </a>
+          <a href="#" class="flex items-center gap-2 text-[13px] text-gray-800 font-medium group">
+            <i class="fa-solid fa-circle text-[8px] text-green-500"></i> 
+            <span class="border-b border-transparent group-hover:border-gray-800 transition-all">bizə yazın</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="md:col-span-4 flex flex-col items-end mt-10">
+        <div class="flex flex-wrap justify-end gap-x-8 gap-y-2 mb-8 text-right">
+          <div>
+            <p class="text-[22px] font-black text-black leading-none mb-1">+7 495 995-80-40</p>
+            <p class="text-[11px] text-gray-400">9:00 - 21:00 (hər gün)</p>
+          </div>
+          <div>
+            <p class="text-[22px] font-black text-black leading-none mb-1">8 800 500-80-66</p>
+            <p class="text-[11px] text-gray-400">Rusiya üzrə (ödənişsiz)</p>
+          </div>
+        </div>
+
+        <div class="w-full max-w-[380px] border border-red-500 flex items-stretch cursor-pointer hover:bg-red-600 transition-all duration-300 mb-8 group bg-white">
+          <div class="bg-white px-4 py-3 flex items-center justify-center transition-colors duration-300 group-hover:bg-red-600">
+             <i class="fa-solid fa-envelope text-red-600 text-lg group-hover:text-white"></i>
+          </div>
+          <div class="flex-grow flex items-center justify-center px-4">
+             <span class="text-black font-bold text-[13px] uppercase tracking-tighter transition-colors duration-300 group-hover:text-white">
+                ENDRİMLƏRİMİZƏ ABUNƏ OLUN
+             </span>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-8">
+          <div class="flex items-center gap-3 cursor-pointer group">
+            <span class="text-[12px] font-bold border-b border-black uppercase group-hover:text-red-600 group-hover:border-red-600 transition-colors">Zəng sifariş et</span>
+            <img src="img/smartphone-call.svg" alt="callback" class="h-9 group-hover:shake transition-all">
+          </div>
+          <img src="img/pokrishka-logo.svg" alt="Pokrishka.ru" class="h-11">
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 border-t border-gray-100 text-[11px] text-gray-400 leading-[1.6] pt-8">
+      <div class="hover:text-gray-600 transition-colors">
+        Saytda çoxlu faydalı məlumatlar, şin kalkulyatoru, icmallar və məsləhətlər tapa bilərsiniz. Mağazamızın səhifələrində şin və disklərin keyfiyyətli fotolarını görə bilər, onların qiymətləri və texniki xüsusiyyətləri ilə tanış ola bilərsiniz.
+      </div>
+      <div class="hover:text-gray-600 transition-colors">
+        Xidmətinizdə illüstrasiyalı kataloqlar var: avtoşinlər, təkər diskləri, həmçinin geniş aksesuar bölməsi. Burada uşaq oturacaqları, dam baqajları, təkər zəncirləri, şin təmiri dəstləri və bir çox başqa məhsulları tapa bilərsiniz.
+      </div>
+      <div class="text-right">
+        <p class="mb-1 text-gray-500">Şin və disklərin onlayn mağazası «Pokrishka.ru» ©</p>
+        <p>Copyright Pokrishka.ru 2003-2026</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+
+</body>
+
+</html>
